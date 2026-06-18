@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: raw
+    database: swiss_jobs
+    schema: public
+    tables:
+      - name: raw_job_postings
+        description: "Raw Swiss tech job postings"
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: title
+            tests:
+              - not_null
+          - name: city
+            tests:
+              - not_null
+              - accepted_values:
+                  arguments:
+                    values:
+                      - 'Zurich'
+                      - 'Basel'
+                      - 'Geneva'
+                      - 'Lausanne'
+                      - 'Bern'
+                      - 'Zug'
+                      - 'Winterthur'
+                      - 'Lucerne'
+                      - 'St. Gallen'
+                      - 'Lugano'
+          - name: salary_mid
+            tests:
+              - not_null
