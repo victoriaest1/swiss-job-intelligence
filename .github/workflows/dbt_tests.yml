@@ -1,0 +1,59 @@
+name: dbt Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  dbt-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: SwissJobs2026!
+          POSTGRES_DB: swiss_jobs
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install dbt-postgres psycopg2-binary pandas faker python-dotenv
+
+      - name: Generate test data
+        run: python ingestion/data_generator.py
+        env:
+          DB_HOST: localhost
+          DB_NAME: swiss_jobs
+          DB_USER: postgres
+          DB_PASSWORD: SwissJobs2026!
+          DB_PORT: 5432
+
+      - name: Run dbt
+        run: |
+          cd dbt_project/swiss_jobs_dbt
+          dbt run
+          dbt test
+        env:
+          DB_HOST: localhost
+          DB_NAME: swiss_jobs
+          DB_USER: postgres
+          DB_PASSWORD: SwissJobs2026!
+          DB_PORT: 5432
