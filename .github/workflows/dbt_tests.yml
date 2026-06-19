@@ -3,8 +3,6 @@ name: dbt Tests
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   dbt-test:
@@ -34,27 +32,39 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
+        run: pip install dbt-postgres psycopg2-binary pandas faker python-dotenv
+
+      - name: Create dbt profiles directory
+        run: mkdir -p ~/.dbt
+
+      - name: Create dbt profiles.yml
         run: |
-          pip install dbt-postgres psycopg2-binary pandas faker python-dotenv
+          cat > ~/.dbt/profiles.yml << 'PROFILE'
+          swiss_jobs_dbt:
+            target: dev
+            outputs:
+              dev:
+                type: postgres
+                host: localhost
+                port: 5432
+                user: postgres
+                password: SwissJobs2026!
+                dbname: swiss_jobs
+                schema: analytics
+                threads: 4
+          PROFILE
 
       - name: Create database table
         run: |
           PGPASSWORD=SwissJobs2026! psql -h localhost -U postgres -d swiss_jobs -c "
           CREATE TABLE IF NOT EXISTS raw_job_postings (
             id SERIAL PRIMARY KEY,
-            title VARCHAR(200),
-            company VARCHAR(200),
-            city VARCHAR(100),
-            canton VARCHAR(10),
-            salary_min INTEGER,
-            salary_max INTEGER,
-            salary_mid INTEGER,
-            skills TEXT,
-            industry VARCHAR(100),
-            remote BOOLEAN,
-            language VARCHAR(50),
-            date_posted DATE,
-            experience_yr INTEGER,
+            title VARCHAR(200), company VARCHAR(200),
+            city VARCHAR(100), canton VARCHAR(10),
+            salary_min INTEGER, salary_max INTEGER, salary_mid INTEGER,
+            skills TEXT, industry VARCHAR(100),
+            remote BOOLEAN, language VARCHAR(50),
+            date_posted DATE, experience_yr INTEGER,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
           );"
 
@@ -72,9 +82,3 @@ jobs:
           cd dbt_project/swiss_jobs_dbt
           dbt run
           dbt test
-        env:
-          DB_HOST: localhost
-          DB_NAME: swiss_jobs
-          DB_USER: postgres
-          DB_PASSWORD: SwissJobs2026!
-          DB_PORT: 5432
