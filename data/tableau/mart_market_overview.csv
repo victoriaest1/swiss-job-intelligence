@@ -1,0 +1,601 @@
+city_clean,canton_clean,region,industry_clean,month_year,postings_count,avg_salary_chf,min_salary_chf,max_salary_chf,avg_experience_yr,remote_pct
+Geneva,GE,Romandy,Technology & SaaS,2025-12-01 00:00:00+00:00,8,118349.0,97332.0,164671.0,4.8,37.5
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-12-01 00:00:00+00:00,7,124742.0,102667.0,177979.0,5.0,42.9
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2026-04-01 00:00:00+00:00,2,129566.0,113727.0,145405.0,1.0,50.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-09-01 00:00:00+00:00,11,140314.0,106294.0,184994.0,4.5,45.5
+Basel,BS,Deutschschweiz,International Organisations,2025-07-01 00:00:00+00:00,13,127049.0,94574.0,175415.0,4.2,38.5
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-06-01 00:00:00+00:00,4,124223.0,94046.0,161285.0,5.5,50.0
+Basel,BS,Deutschschweiz,Healthcare,2025-10-01 00:00:00+00:00,1,154391.0,154391.0,154391.0,3.0,0.0
+Basel,BS,Deutschschweiz,Consulting,2025-09-01 00:00:00+00:00,7,126744.0,98862.0,163440.0,4.1,42.9
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,18,142548.0,92923.0,200083.0,4.8,50.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2026-01-01 00:00:00+00:00,1,178665.0,178665.0,178665.0,7.0,100.0
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,2,122187.0,122173.0,122201.0,3.0,0.0
+Lausanne,VD,Romandy,Commodities & Trading,2026-02-01 00:00:00+00:00,8,131250.0,93331.0,181981.0,4.0,12.5
+Lausanne,VD,Romandy,Commodities & Trading,2025-08-01 00:00:00+00:00,3,143464.0,92634.0,178627.0,1.0,0.0
+Zug,ZG,Deutschschweiz,International Organisations,2026-04-01 00:00:00+00:00,2,126332.0,122836.0,129828.0,4.5,100.0
+Bern,BE,Deutschschweiz,Finance & Banking,2026-06-01 00:00:00+00:00,7,137020.0,99457.0,167929.0,4.7,42.9
+Winterthur,ZH,Deutschschweiz,International Organisations,2026-01-01 00:00:00+00:00,1,169660.0,169660.0,169660.0,7.0,0.0
+Bern,BE,Deutschschweiz,Consulting,2026-01-01 00:00:00+00:00,2,146757.0,105488.0,188026.0,7.0,50.0
+Bern,BE,Deutschschweiz,Healthcare,2026-01-01 00:00:00+00:00,1,107974.0,107974.0,107974.0,6.0,0.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-09-01 00:00:00+00:00,8,141215.0,112963.0,187159.0,3.8,37.5
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-08-01 00:00:00+00:00,39,140965.0,93781.0,205749.0,4.0,48.7
+Lausanne,VD,Romandy,Technology & SaaS,2026-06-01 00:00:00+00:00,5,147227.0,103324.0,178976.0,5.0,80.0
+Basel,BS,Deutschschweiz,International Organisations,2025-12-01 00:00:00+00:00,8,128762.0,102212.0,159783.0,4.1,37.5
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-08-01 00:00:00+00:00,21,134636.0,88009.0,191240.0,3.6,42.9
+Zurich,ZH,Deutschschweiz,Consulting,2026-05-01 00:00:00+00:00,11,125140.0,96212.0,169621.0,4.3,63.6
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-06-01 00:00:00+00:00,1,156440.0,156440.0,156440.0,3.0,100.0
+Lausanne,VD,Romandy,Consulting,2026-04-01 00:00:00+00:00,4,141021.0,93059.0,187438.0,4.5,25.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,27,138340.0,80873.0,185449.0,3.8,40.7
+Lausanne,VD,Romandy,Healthcare,2025-10-01 00:00:00+00:00,3,149011.0,140960.0,158206.0,3.3,0.0
+Lausanne,VD,Romandy,Finance & Banking,2026-01-01 00:00:00+00:00,14,134145.0,84176.0,176604.0,3.7,28.6
+Geneva,GE,Romandy,Commodities & Trading,2025-06-01 00:00:00+00:00,3,134141.0,101369.0,177434.0,5.3,66.7
+Geneva,GE,Romandy,Commodities & Trading,2025-09-01 00:00:00+00:00,3,125628.0,84499.0,152356.0,3.3,33.3
+Zug,ZG,Deutschschweiz,Commodities & Trading,2026-04-01 00:00:00+00:00,1,149725.0,149725.0,149725.0,4.0,100.0
+Geneva,GE,Romandy,Pharma & Biotech,2025-12-01 00:00:00+00:00,7,124612.0,99792.0,180154.0,3.9,28.6
+Zurich,ZH,Deutschschweiz,Consulting,2025-11-01 00:00:00+00:00,21,148602.0,111926.0,202199.0,4.0,38.1
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-12-01 00:00:00+00:00,4,120348.0,95909.0,135098.0,5.0,50.0
+Lausanne,VD,Romandy,Finance & Banking,2025-09-01 00:00:00+00:00,9,145647.0,97051.0,189617.0,5.2,44.4
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-12-01 00:00:00+00:00,20,129107.0,89613.0,188050.0,3.9,55.0
+Basel,BS,Deutschschweiz,Healthcare,2026-06-01 00:00:00+00:00,1,112022.0,112022.0,112022.0,4.0,100.0
+Zurich,ZH,Deutschschweiz,Consulting,2025-10-01 00:00:00+00:00,16,138011.0,102129.0,168388.0,4.3,25.0
+Geneva,GE,Romandy,Technology & SaaS,2026-06-01 00:00:00+00:00,11,128024.0,103500.0,151528.0,2.2,54.5
+Bern,BE,Deutschschweiz,Consulting,2026-05-01 00:00:00+00:00,4,132178.0,101860.0,168501.0,2.3,25.0
+Geneva,GE,Romandy,Healthcare,2025-10-01 00:00:00+00:00,2,123015.0,110234.0,135796.0,3.5,100.0
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-04-01 00:00:00+00:00,24,137300.0,101647.0,189450.0,4.3,29.2
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-04-01 00:00:00+00:00,13,123176.0,95341.0,178582.0,3.4,30.8
+Lucerne,LU,Deutschschweiz,Finance & Banking,2025-09-01 00:00:00+00:00,1,111931.0,111931.0,111931.0,7.0,100.0
+Zurich,ZH,Deutschschweiz,Healthcare,2025-10-01 00:00:00+00:00,4,119646.0,113355.0,126037.0,4.3,25.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-07-01 00:00:00+00:00,44,136321.0,90136.0,181784.0,4.3,34.1
+St. Gallen,SG,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,1,156344.0,156344.0,156344.0,1.0,100.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-06-01 00:00:00+00:00,6,124344.0,94767.0,152597.0,2.8,0.0
+Bern,BE,Deutschschweiz,International Organisations,2026-04-01 00:00:00+00:00,6,147007.0,118366.0,159877.0,4.2,66.7
+Lausanne,VD,Romandy,International Organisations,2026-02-01 00:00:00+00:00,2,121788.0,118308.0,125267.0,2.5,100.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-06-01 00:00:00+00:00,3,114043.0,82994.0,152550.0,3.0,0.0
+Lausanne,VD,Romandy,International Organisations,2025-07-01 00:00:00+00:00,5,128852.0,106266.0,151620.0,3.2,60.0
+Bern,BE,Deutschschweiz,International Organisations,2026-06-01 00:00:00+00:00,2,134918.0,101610.0,168225.0,3.0,50.0
+Zurich,ZH,Deutschschweiz,Healthcare,2026-06-01 00:00:00+00:00,3,138765.0,119280.0,158876.0,4.3,33.3
+Zug,ZG,Deutschschweiz,Finance & Banking,2026-02-01 00:00:00+00:00,1,134465.0,134465.0,134465.0,7.0,0.0
+Zurich,ZH,Deutschschweiz,Consulting,2026-04-01 00:00:00+00:00,18,141301.0,100280.0,198430.0,3.7,44.4
+Lucerne,LU,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,3,152114.0,133144.0,173000.0,4.7,66.7
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-04-01 00:00:00+00:00,42,135930.0,94142.0,198594.0,4.1,47.6
+Geneva,GE,Romandy,Finance & Banking,2026-05-01 00:00:00+00:00,22,141037.0,104323.0,211345.0,4.4,36.4
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-03-01 00:00:00+00:00,9,130198.0,97714.0,176053.0,4.4,33.3
+Bern,BE,Deutschschweiz,Healthcare,2026-02-01 00:00:00+00:00,1,155706.0,155706.0,155706.0,2.0,0.0
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-08-01 00:00:00+00:00,2,119334.0,102968.0,135700.0,0.5,50.0
+Zug,ZG,Deutschschweiz,International Organisations,2025-10-01 00:00:00+00:00,2,130448.0,106849.0,154047.0,2.5,0.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2026-04-01 00:00:00+00:00,2,136129.0,122456.0,149802.0,1.0,50.0
+Winterthur,ZH,Deutschschweiz,Commodities & Trading,2025-06-01 00:00:00+00:00,1,140202.0,140202.0,140202.0,0.0,0.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-10-01 00:00:00+00:00,4,154924.0,116773.0,189532.0,6.3,75.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-07-01 00:00:00+00:00,2,129726.0,122519.0,136932.0,1.5,50.0
+Lausanne,VD,Romandy,Technology & SaaS,2025-11-01 00:00:00+00:00,13,133931.0,92517.0,183927.0,3.8,61.5
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-11-01 00:00:00+00:00,19,134531.0,97088.0,192188.0,4.3,36.8
+Geneva,GE,Romandy,Technology & SaaS,2026-05-01 00:00:00+00:00,17,146320.0,111591.0,189939.0,4.0,17.6
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-08-01 00:00:00+00:00,13,142338.0,119145.0,182197.0,4.3,53.8
+Lausanne,VD,Romandy,Consulting,2025-11-01 00:00:00+00:00,4,132626.0,106627.0,190522.0,4.5,25.0
+Basel,BS,Deutschschweiz,Healthcare,2025-11-01 00:00:00+00:00,7,135805.0,101194.0,187790.0,4.6,42.9
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-02-01 00:00:00+00:00,5,135381.0,114878.0,187425.0,6.6,60.0
+Bern,BE,Deutschschweiz,Consulting,2026-03-01 00:00:00+00:00,5,138470.0,91131.0,176757.0,3.0,20.0
+Lausanne,VD,Romandy,Healthcare,2025-07-01 00:00:00+00:00,1,142683.0,142683.0,142683.0,0.0,100.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,10,141422.0,109320.0,179145.0,5.3,30.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-12-01 00:00:00+00:00,7,133188.0,101805.0,152644.0,5.0,42.9
+Geneva,GE,Romandy,Finance & Banking,2025-08-01 00:00:00+00:00,17,134276.0,89170.0,178263.0,3.8,29.4
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-04-01 00:00:00+00:00,11,128789.0,89289.0,184523.0,4.6,27.3
+Geneva,GE,Romandy,Commodities & Trading,2026-01-01 00:00:00+00:00,1,117033.0,117033.0,117033.0,0.0,0.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-01-01 00:00:00+00:00,13,127032.0,92123.0,165228.0,4.3,23.1
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-07-01 00:00:00+00:00,6,128209.0,96405.0,187177.0,3.3,83.3
+Basel,BS,Deutschschweiz,Healthcare,2025-06-01 00:00:00+00:00,1,204521.0,204521.0,204521.0,1.0,0.0
+Zug,ZG,Deutschschweiz,International Organisations,2025-11-01 00:00:00+00:00,1,103985.0,103985.0,103985.0,4.0,0.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-01-01 00:00:00+00:00,14,130843.0,98566.0,161388.0,5.2,50.0
+Geneva,GE,Romandy,International Organisations,2026-01-01 00:00:00+00:00,10,130008.0,105255.0,161878.0,4.5,50.0
+Geneva,GE,Romandy,International Organisations,2026-06-01 00:00:00+00:00,1,189101.0,189101.0,189101.0,2.0,0.0
+Bern,BE,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,11,128210.0,92633.0,159251.0,3.0,27.3
+Zurich,ZH,Deutschschweiz,Consulting,2025-08-01 00:00:00+00:00,18,147915.0,100267.0,190667.0,3.2,33.3
+Geneva,GE,Romandy,Pharma & Biotech,2026-05-01 00:00:00+00:00,15,132790.0,94381.0,173570.0,4.1,46.7
+Lausanne,VD,Romandy,Commodities & Trading,2025-10-01 00:00:00+00:00,3,141008.0,100538.0,164388.0,2.7,33.3
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-08-01 00:00:00+00:00,4,128189.0,113314.0,146536.0,6.5,50.0
+Geneva,GE,Romandy,Commodities & Trading,2025-07-01 00:00:00+00:00,4,132993.0,112249.0,167650.0,3.8,25.0
+Basel,BS,Deutschschweiz,International Organisations,2026-04-01 00:00:00+00:00,12,140806.0,113929.0,190011.0,4.6,41.7
+Lugano,TI,Ticino,Commodities & Trading,2026-02-01 00:00:00+00:00,2,118529.0,111401.0,125656.0,2.5,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2026-01-01 00:00:00+00:00,22,136253.0,97760.0,179853.0,3.5,72.7
+Basel,BS,Deutschschweiz,Consulting,2025-10-01 00:00:00+00:00,4,141126.0,99370.0,169479.0,5.3,75.0
+St. Gallen,SG,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,1,123439.0,123439.0,123439.0,1.0,0.0
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-06-01 00:00:00+00:00,2,130334.0,128493.0,132175.0,0.5,0.0
+Bern,BE,Deutschschweiz,International Organisations,2026-03-01 00:00:00+00:00,1,175979.0,175979.0,175979.0,8.0,100.0
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-02-01 00:00:00+00:00,1,136746.0,136746.0,136746.0,5.0,0.0
+Zug,ZG,Deutschschweiz,Consulting,2025-07-01 00:00:00+00:00,1,107535.0,107535.0,107535.0,7.0,100.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-06-01 00:00:00+00:00,7,150488.0,121410.0,202888.0,3.0,28.6
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,27,137440.0,99413.0,185070.0,4.0,33.3
+Basel,BS,Deutschschweiz,International Organisations,2025-08-01 00:00:00+00:00,11,140655.0,105503.0,205580.0,2.8,27.3
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-07-01 00:00:00+00:00,6,116940.0,101318.0,135728.0,3.7,33.3
+Basel,BS,Deutschschweiz,Consulting,2026-05-01 00:00:00+00:00,6,135556.0,109703.0,194973.0,3.0,50.0
+Geneva,GE,Romandy,Technology & SaaS,2025-11-01 00:00:00+00:00,23,140022.0,106770.0,190551.0,3.3,30.4
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-02-01 00:00:00+00:00,8,144073.0,108148.0,211977.0,5.8,50.0
+Bern,BE,Deutschschweiz,Healthcare,2026-03-01 00:00:00+00:00,3,139465.0,108539.0,167119.0,6.3,100.0
+Geneva,GE,Romandy,Healthcare,2025-06-01 00:00:00+00:00,1,127278.0,127278.0,127278.0,0.0,100.0
+Lausanne,VD,Romandy,Commodities & Trading,2026-04-01 00:00:00+00:00,3,139502.0,112730.0,171445.0,4.0,33.3
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,13,126720.0,109217.0,178016.0,4.0,23.1
+Bern,BE,Deutschschweiz,Consulting,2026-04-01 00:00:00+00:00,4,137773.0,126615.0,164864.0,5.3,0.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-06-01 00:00:00+00:00,2,124432.0,110571.0,138292.0,2.0,0.0
+Lucerne,LU,Deutschschweiz,Finance & Banking,2026-01-01 00:00:00+00:00,3,142313.0,134887.0,154542.0,3.7,66.7
+Lucerne,LU,Deutschschweiz,Finance & Banking,2026-03-01 00:00:00+00:00,1,125886.0,125886.0,125886.0,8.0,0.0
+Zurich,ZH,Deutschschweiz,Consulting,2025-06-01 00:00:00+00:00,4,138435.0,110430.0,169953.0,3.8,25.0
+Lausanne,VD,Romandy,International Organisations,2026-03-01 00:00:00+00:00,4,140673.0,114755.0,169130.0,4.5,25.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-05-01 00:00:00+00:00,21,141077.0,89952.0,181054.0,4.8,47.6
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,1,160030.0,160030.0,160030.0,8.0,0.0
+Geneva,GE,Romandy,Pharma & Biotech,2025-07-01 00:00:00+00:00,9,135588.0,93574.0,173970.0,3.2,22.2
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2026-03-01 00:00:00+00:00,2,115416.0,97467.0,133365.0,1.5,0.0
+Winterthur,ZH,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,1,166452.0,166452.0,166452.0,0.0,100.0
+Zug,ZG,Deutschschweiz,Consulting,2026-05-01 00:00:00+00:00,2,154665.0,153216.0,156113.0,3.5,50.0
+Lucerne,LU,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,3,130077.0,121099.0,135361.0,7.0,66.7
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2026-06-01 00:00:00+00:00,1,162944.0,162944.0,162944.0,3.0,100.0
+Bern,BE,Deutschschweiz,Commodities & Trading,2025-06-01 00:00:00+00:00,1,104686.0,104686.0,104686.0,0.0,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-09-01 00:00:00+00:00,16,139839.0,115883.0,200616.0,5.6,56.3
+Bern,BE,Deutschschweiz,Finance & Banking,2026-03-01 00:00:00+00:00,7,139982.0,103366.0,181296.0,4.3,14.3
+Geneva,GE,Romandy,Commodities & Trading,2026-04-01 00:00:00+00:00,2,121709.0,116940.0,126477.0,1.5,0.0
+Lucerne,LU,Deutschschweiz,International Organisations,2025-08-01 00:00:00+00:00,1,173453.0,173453.0,173453.0,5.0,0.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,4,142116.0,117616.0,178936.0,1.8,25.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,20,136993.0,92953.0,190513.0,4.0,30.0
+Lausanne,VD,Romandy,Consulting,2025-06-01 00:00:00+00:00,2,114069.0,109098.0,119040.0,2.0,0.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2025-07-01 00:00:00+00:00,1,119467.0,119467.0,119467.0,8.0,0.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,4,139244.0,130162.0,151798.0,3.3,25.0
+Basel,BS,Deutschschweiz,Healthcare,2026-01-01 00:00:00+00:00,2,149443.0,148511.0,150375.0,3.0,100.0
+Geneva,GE,Romandy,Consulting,2026-02-01 00:00:00+00:00,4,154457.0,125473.0,206635.0,4.5,75.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-08-01 00:00:00+00:00,21,140477.0,108535.0,198742.0,5.0,52.4
+Zug,ZG,Deutschschweiz,International Organisations,2026-02-01 00:00:00+00:00,2,130673.0,126873.0,134472.0,3.5,50.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,33,138033.0,91789.0,186280.0,3.8,42.4
+Lausanne,VD,Romandy,Healthcare,2026-03-01 00:00:00+00:00,2,115014.0,97843.0,132184.0,0.0,50.0
+Basel,BS,Deutschschweiz,International Organisations,2025-10-01 00:00:00+00:00,12,141258.0,101088.0,194830.0,4.0,25.0
+Bern,BE,Deutschschweiz,International Organisations,2025-11-01 00:00:00+00:00,6,134834.0,92110.0,179969.0,3.7,0.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-11-01 00:00:00+00:00,1,202667.0,202667.0,202667.0,1.0,0.0
+St. Gallen,SG,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,3,139841.0,124747.0,154485.0,3.3,33.3
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,8,126532.0,90433.0,165341.0,2.4,25.0
+Zurich,ZH,Deutschschweiz,International Organisations,2026-02-01 00:00:00+00:00,17,132572.0,95968.0,191703.0,4.0,35.3
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-10-01 00:00:00+00:00,7,123113.0,92079.0,144901.0,5.1,42.9
+Geneva,GE,Romandy,Consulting,2026-05-01 00:00:00+00:00,6,142410.0,107247.0,183814.0,3.2,66.7
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2025-10-01 00:00:00+00:00,3,141859.0,101385.0,163559.0,3.3,33.3
+Geneva,GE,Romandy,International Organisations,2025-07-01 00:00:00+00:00,15,138729.0,96947.0,183330.0,4.3,40.0
+Geneva,GE,Romandy,Commodities & Trading,2026-05-01 00:00:00+00:00,5,125527.0,96530.0,157241.0,4.0,40.0
+Lausanne,VD,Romandy,Technology & SaaS,2026-03-01 00:00:00+00:00,12,120236.0,94542.0,150224.0,4.2,25.0
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,3,133450.0,125843.0,141554.0,3.3,100.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,40,137307.0,96811.0,190004.0,3.8,55.0
+St. Gallen,SG,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,2,144827.0,119963.0,169690.0,8.0,0.0
+Bern,BE,Deutschschweiz,Finance & Banking,2025-06-01 00:00:00+00:00,5,151667.0,103077.0,183442.0,5.2,40.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-04-01 00:00:00+00:00,3,142409.0,94120.0,177492.0,5.3,0.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2025-08-01 00:00:00+00:00,2,149233.0,149151.0,149314.0,1.5,0.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-05-01 00:00:00+00:00,30,140733.0,91464.0,196973.0,3.1,40.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-10-01 00:00:00+00:00,7,125636.0,96868.0,160685.0,3.3,28.6
+Basel,BS,Deutschschweiz,International Organisations,2025-06-01 00:00:00+00:00,4,159331.0,145132.0,174761.0,5.5,50.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-08-01 00:00:00+00:00,15,137869.0,93278.0,196385.0,3.5,53.3
+Basel,BS,Deutschschweiz,Finance & Banking,2025-07-01 00:00:00+00:00,22,131921.0,92269.0,175951.0,3.5,50.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,53,137104.0,88025.0,189225.0,3.5,35.8
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,25,132242.0,92501.0,201920.0,3.8,52.0
+Bern,BE,Deutschschweiz,International Organisations,2026-05-01 00:00:00+00:00,3,142759.0,119185.0,156350.0,6.0,66.7
+Bern,BE,Deutschschweiz,Finance & Banking,2025-08-01 00:00:00+00:00,5,126769.0,107911.0,142618.0,3.8,80.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-09-01 00:00:00+00:00,12,142756.0,105874.0,180801.0,3.5,41.7
+Bern,BE,Deutschschweiz,Consulting,2025-08-01 00:00:00+00:00,2,159480.0,151714.0,167246.0,3.5,50.0
+Zurich,ZH,Deutschschweiz,Healthcare,2026-04-01 00:00:00+00:00,8,132305.0,99543.0,169365.0,4.4,50.0
+Geneva,GE,Romandy,Healthcare,2025-07-01 00:00:00+00:00,4,139332.0,111837.0,179499.0,4.3,25.0
+Geneva,GE,Romandy,International Organisations,2025-08-01 00:00:00+00:00,12,132476.0,99048.0,174979.0,3.7,41.7
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,39,134357.0,93001.0,192058.0,4.6,35.9
+Zug,ZG,Deutschschweiz,Healthcare,2025-12-01 00:00:00+00:00,1,165973.0,165973.0,165973.0,3.0,100.0
+Lucerne,LU,Deutschschweiz,Finance & Banking,2025-06-01 00:00:00+00:00,1,143393.0,143393.0,143393.0,0.0,0.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2026-06-01 00:00:00+00:00,2,131658.0,101854.0,161462.0,3.0,0.0
+Zug,ZG,Deutschschweiz,International Organisations,2025-07-01 00:00:00+00:00,1,117730.0,117730.0,117730.0,7.0,100.0
+Lausanne,VD,Romandy,Healthcare,2026-05-01 00:00:00+00:00,1,206594.0,206594.0,206594.0,4.0,0.0
+Zurich,ZH,Deutschschweiz,Consulting,2026-01-01 00:00:00+00:00,18,129030.0,95469.0,191455.0,4.0,50.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-07-01 00:00:00+00:00,24,138503.0,102251.0,177786.0,4.5,45.8
+Zug,ZG,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,2,150021.0,117771.0,182271.0,0.5,50.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2026-05-01 00:00:00+00:00,2,158341.0,152072.0,164610.0,1.0,50.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-11-01 00:00:00+00:00,23,137415.0,98604.0,210832.0,4.3,30.4
+Geneva,GE,Romandy,Pharma & Biotech,2025-06-01 00:00:00+00:00,4,119711.0,98711.0,137984.0,2.5,50.0
+Winterthur,ZH,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,1,89817.0,89817.0,89817.0,0.0,0.0
+Geneva,GE,Romandy,Pharma & Biotech,2026-01-01 00:00:00+00:00,9,141974.0,104465.0,189014.0,3.7,33.3
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-02-01 00:00:00+00:00,52,144092.0,104625.0,204060.0,3.9,51.9
+Basel,BS,Deutschschweiz,Finance & Banking,2026-03-01 00:00:00+00:00,23,132562.0,93203.0,182750.0,3.6,47.8
+Winterthur,ZH,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,2,142105.0,136560.0,147650.0,2.0,0.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,25,134294.0,101249.0,186894.0,3.6,44.0
+Lausanne,VD,Romandy,International Organisations,2026-05-01 00:00:00+00:00,3,149860.0,123180.0,195836.0,2.3,66.7
+Lausanne,VD,Romandy,International Organisations,2025-06-01 00:00:00+00:00,1,123642.0,123642.0,123642.0,2.0,100.0
+Zug,ZG,Deutschschweiz,International Organisations,2025-08-01 00:00:00+00:00,2,132929.0,126022.0,139836.0,2.5,50.0
+Lausanne,VD,Romandy,Commodities & Trading,2026-05-01 00:00:00+00:00,6,141590.0,103781.0,157673.0,2.8,33.3
+Lausanne,VD,Romandy,Consulting,2026-01-01 00:00:00+00:00,3,135473.0,99386.0,166210.0,6.0,66.7
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-01-01 00:00:00+00:00,2,154803.0,109318.0,200288.0,5.0,50.0
+Lausanne,VD,Romandy,Technology & SaaS,2025-10-01 00:00:00+00:00,8,149457.0,113562.0,187818.0,2.3,50.0
+Geneva,GE,Romandy,Consulting,2025-06-01 00:00:00+00:00,2,130887.0,129977.0,131796.0,0.5,50.0
+Lausanne,VD,Romandy,Healthcare,2026-01-01 00:00:00+00:00,3,108581.0,105324.0,114079.0,3.7,33.3
+Lausanne,VD,Romandy,Technology & SaaS,2026-04-01 00:00:00+00:00,10,133492.0,89674.0,184951.0,4.0,40.0
+Lausanne,VD,Romandy,Commodities & Trading,2025-11-01 00:00:00+00:00,5,153481.0,119378.0,172491.0,2.4,60.0
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2025-11-01 00:00:00+00:00,1,139929.0,139929.0,139929.0,1.0,0.0
+Geneva,GE,Romandy,International Organisations,2025-12-01 00:00:00+00:00,9,141368.0,91725.0,181418.0,3.3,22.2
+Lausanne,VD,Romandy,International Organisations,2025-10-01 00:00:00+00:00,5,128072.0,106923.0,147942.0,2.8,60.0
+Lausanne,VD,Romandy,Technology & SaaS,2025-09-01 00:00:00+00:00,11,135327.0,103905.0,178966.0,2.2,45.5
+Geneva,GE,Romandy,Finance & Banking,2026-02-01 00:00:00+00:00,22,135552.0,87462.0,193976.0,3.0,45.5
+Basel,BS,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,24,133274.0,101134.0,184465.0,3.5,25.0
+Geneva,GE,Romandy,Pharma & Biotech,2025-09-01 00:00:00+00:00,11,149319.0,118069.0,195529.0,3.8,54.5
+Geneva,GE,Romandy,Technology & SaaS,2025-07-01 00:00:00+00:00,15,134994.0,105902.0,184483.0,4.3,40.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-05-01 00:00:00+00:00,11,137129.0,102263.0,197363.0,3.6,18.2
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,1,171110.0,171110.0,171110.0,7.0,0.0
+Basel,BS,Deutschschweiz,Healthcare,2025-12-01 00:00:00+00:00,3,135151.0,112404.0,153183.0,3.3,33.3
+Lausanne,VD,Romandy,Finance & Banking,2025-08-01 00:00:00+00:00,12,135482.0,106979.0,160969.0,4.8,41.7
+Lausanne,VD,Romandy,Healthcare,2025-06-01 00:00:00+00:00,2,147346.0,116618.0,178073.0,3.0,50.0
+Lausanne,VD,Romandy,Consulting,2026-05-01 00:00:00+00:00,3,129815.0,103728.0,168176.0,5.0,33.3
+Lugano,TI,Ticino,Commodities & Trading,2025-06-01 00:00:00+00:00,1,150974.0,150974.0,150974.0,7.0,0.0
+Zurich,ZH,Deutschschweiz,Healthcare,2025-08-01 00:00:00+00:00,9,137540.0,113161.0,208558.0,3.8,44.4
+Zurich,ZH,Deutschschweiz,Healthcare,2026-05-01 00:00:00+00:00,12,138907.0,91020.0,188668.0,2.9,8.3
+Bern,BE,Deutschschweiz,Consulting,2025-06-01 00:00:00+00:00,1,106860.0,106860.0,106860.0,4.0,0.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-07-01 00:00:00+00:00,5,128997.0,104956.0,144601.0,6.2,20.0
+Geneva,GE,Romandy,Healthcare,2026-04-01 00:00:00+00:00,3,127607.0,107542.0,149377.0,0.3,66.7
+Geneva,GE,Romandy,Healthcare,2025-09-01 00:00:00+00:00,3,138598.0,105360.0,161110.0,6.0,33.3
+Basel,BS,Deutschschweiz,Consulting,2025-08-01 00:00:00+00:00,6,134467.0,86306.0,173233.0,4.3,83.3
+Lausanne,VD,Romandy,International Organisations,2025-11-01 00:00:00+00:00,4,118575.0,101068.0,155217.0,4.3,25.0
+Bern,BE,Deutschschweiz,Consulting,2025-07-01 00:00:00+00:00,2,148874.0,116085.0,181663.0,3.0,50.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-06-01 00:00:00+00:00,1,151432.0,151432.0,151432.0,1.0,0.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,42,139332.0,92276.0,197228.0,4.1,52.4
+Winterthur,ZH,Deutschschweiz,International Organisations,2025-09-01 00:00:00+00:00,2,145449.0,131344.0,159553.0,3.5,50.0
+Basel,BS,Deutschschweiz,Consulting,2025-11-01 00:00:00+00:00,6,156293.0,139409.0,194669.0,1.8,33.3
+Geneva,GE,Romandy,Technology & SaaS,2026-04-01 00:00:00+00:00,20,138439.0,104534.0,186386.0,3.5,20.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-10-01 00:00:00+00:00,15,135032.0,84966.0,185578.0,3.4,26.7
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2026-04-01 00:00:00+00:00,2,126625.0,119032.0,134218.0,7.5,0.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,15,124447.0,97115.0,191992.0,3.5,46.7
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-09-01 00:00:00+00:00,26,142158.0,97560.0,197526.0,3.8,34.6
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-11-01 00:00:00+00:00,5,117592.0,99502.0,153328.0,3.0,60.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-06-01 00:00:00+00:00,9,135294.0,104859.0,191965.0,3.8,44.4
+Geneva,GE,Romandy,Consulting,2026-04-01 00:00:00+00:00,5,134476.0,91067.0,162357.0,3.6,40.0
+Bern,BE,Deutschschweiz,Consulting,2025-10-01 00:00:00+00:00,5,141917.0,108607.0,193220.0,4.4,20.0
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-06-01 00:00:00+00:00,12,131658.0,87579.0,191626.0,5.2,25.0
+St. Gallen,SG,Deutschschweiz,Healthcare,2025-09-01 00:00:00+00:00,1,106941.0,106941.0,106941.0,4.0,0.0
+Geneva,GE,Romandy,Finance & Banking,2025-06-01 00:00:00+00:00,4,138670.0,129256.0,150215.0,4.0,25.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,1,113905.0,113905.0,113905.0,4.0,100.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-10-01 00:00:00+00:00,10,129727.0,103046.0,163432.0,3.0,40.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-03-01 00:00:00+00:00,31,136022.0,88268.0,205075.0,3.4,51.6
+Zurich,ZH,Deutschschweiz,Healthcare,2026-03-01 00:00:00+00:00,9,140523.0,111998.0,196554.0,4.6,33.3
+Zurich,ZH,Deutschschweiz,International Organisations,2026-04-01 00:00:00+00:00,21,135955.0,85339.0,196227.0,4.5,61.9
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-07-01 00:00:00+00:00,16,131073.0,94730.0,173975.0,3.6,18.8
+Bern,BE,Deutschschweiz,International Organisations,2025-09-01 00:00:00+00:00,4,145207.0,121554.0,186670.0,2.8,25.0
+Geneva,GE,Romandy,Technology & SaaS,2026-02-01 00:00:00+00:00,14,134614.0,108508.0,173746.0,3.9,28.6
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,26,141822.0,97543.0,186998.0,4.9,46.2
+St. Gallen,SG,Deutschschweiz,International Organisations,2026-03-01 00:00:00+00:00,2,108595.0,102701.0,114489.0,1.0,0.0
+Bern,BE,Deutschschweiz,International Organisations,2025-07-01 00:00:00+00:00,7,135837.0,103939.0,186150.0,4.3,28.6
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-06-01 00:00:00+00:00,23,137865.0,88883.0,194143.0,3.7,43.5
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2026-01-01 00:00:00+00:00,1,147807.0,147807.0,147807.0,5.0,100.0
+Bern,BE,Deutschschweiz,International Organisations,2025-12-01 00:00:00+00:00,2,178388.0,175699.0,181077.0,4.5,0.0
+Basel,BS,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,28,128454.0,82892.0,184073.0,3.4,64.3
+Basel,BS,Deutschschweiz,Consulting,2025-07-01 00:00:00+00:00,7,141534.0,105845.0,178268.0,3.9,71.4
+Bern,BE,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,5,145196.0,108244.0,163185.0,4.0,80.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-09-01 00:00:00+00:00,23,141591.0,101100.0,183002.0,4.3,39.1
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,2,106733.0,99869.0,113597.0,4.0,50.0
+Basel,BS,Deutschschweiz,International Organisations,2026-02-01 00:00:00+00:00,10,138763.0,105524.0,193226.0,4.2,30.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-12-01 00:00:00+00:00,12,129450.0,87167.0,191997.0,4.1,33.3
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,2,126023.0,119482.0,132563.0,4.0,0.0
+Geneva,GE,Romandy,Consulting,2025-10-01 00:00:00+00:00,5,152534.0,113459.0,172702.0,4.4,40.0
+Geneva,GE,Romandy,Finance & Banking,2025-10-01 00:00:00+00:00,15,126884.0,84120.0,190154.0,5.1,66.7
+Zug,ZG,Deutschschweiz,International Organisations,2025-09-01 00:00:00+00:00,3,132290.0,129175.0,136471.0,6.3,33.3
+Lausanne,VD,Romandy,Finance & Banking,2026-06-01 00:00:00+00:00,8,135899.0,103893.0,174466.0,3.0,25.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2026-04-01 00:00:00+00:00,2,173804.0,165671.0,181936.0,2.0,50.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-09-01 00:00:00+00:00,38,136822.0,87053.0,184781.0,3.8,28.9
+Lugano,TI,Ticino,Finance & Banking,2025-08-01 00:00:00+00:00,1,177724.0,177724.0,177724.0,2.0,0.0
+Lausanne,VD,Romandy,Technology & SaaS,2025-07-01 00:00:00+00:00,13,144415.0,106859.0,189357.0,3.5,53.8
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2025-08-01 00:00:00+00:00,1,125360.0,125360.0,125360.0,3.0,0.0
+St. Gallen,SG,Deutschschweiz,Pharma & Biotech,2026-06-01 00:00:00+00:00,1,160900.0,160900.0,160900.0,5.0,0.0
+St. Gallen,SG,Deutschschweiz,Technology & SaaS,2026-05-01 00:00:00+00:00,3,109888.0,94856.0,133393.0,6.0,66.7
+Lugano,TI,Ticino,Technology & SaaS,2026-01-01 00:00:00+00:00,1,175124.0,175124.0,175124.0,6.0,0.0
+Geneva,GE,Romandy,International Organisations,2026-03-01 00:00:00+00:00,5,134288.0,105064.0,156806.0,5.0,80.0
+Lugano,TI,Ticino,Finance & Banking,2026-01-01 00:00:00+00:00,2,133222.0,90373.0,176070.0,5.0,100.0
+Basel,BS,Deutschschweiz,Finance & Banking,2025-08-01 00:00:00+00:00,21,137613.0,86651.0,195340.0,4.7,42.9
+Zug,ZG,Deutschschweiz,Healthcare,2025-08-01 00:00:00+00:00,1,162805.0,162805.0,162805.0,3.0,100.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-11-01 00:00:00+00:00,28,139256.0,100493.0,179407.0,4.5,42.9
+Geneva,GE,Romandy,Technology & SaaS,2026-03-01 00:00:00+00:00,19,135119.0,104742.0,206442.0,3.7,31.6
+Geneva,GE,Romandy,Healthcare,2026-02-01 00:00:00+00:00,3,114710.0,105194.0,126356.0,4.0,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-11-01 00:00:00+00:00,19,138462.0,90628.0,189466.0,2.9,21.1
+Zurich,ZH,Deutschschweiz,Healthcare,2025-09-01 00:00:00+00:00,10,142620.0,117062.0,168176.0,2.5,30.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,7,148873.0,114954.0,199436.0,5.0,57.1
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-06-01 00:00:00+00:00,16,135965.0,104694.0,185401.0,3.0,37.5
+Geneva,GE,Romandy,International Organisations,2025-11-01 00:00:00+00:00,7,159539.0,132681.0,205414.0,4.3,42.9
+Lugano,TI,Ticino,Technology & SaaS,2026-06-01 00:00:00+00:00,1,167269.0,167269.0,167269.0,4.0,0.0
+Geneva,GE,Romandy,Technology & SaaS,2025-09-01 00:00:00+00:00,21,151288.0,105337.0,198521.0,4.3,38.1
+Basel,BS,Deutschschweiz,Commodities & Trading,2025-06-01 00:00:00+00:00,2,151030.0,144489.0,157570.0,3.5,100.0
+Lausanne,VD,Romandy,Consulting,2025-08-01 00:00:00+00:00,2,166916.0,149051.0,184781.0,0.5,50.0
+Zug,ZG,Deutschschweiz,Commodities & Trading,2026-06-01 00:00:00+00:00,1,102878.0,102878.0,102878.0,6.0,0.0
+Basel,BS,Deutschschweiz,International Organisations,2026-03-01 00:00:00+00:00,12,142978.0,97181.0,188321.0,4.7,41.7
+Geneva,GE,Romandy,Finance & Banking,2025-07-01 00:00:00+00:00,26,144890.0,101005.0,206263.0,4.0,46.2
+Lausanne,VD,Romandy,International Organisations,2025-08-01 00:00:00+00:00,2,132827.0,117101.0,148552.0,4.0,50.0
+Basel,BS,Deutschschweiz,Consulting,2026-04-01 00:00:00+00:00,8,126403.0,99151.0,178803.0,3.8,37.5
+Lausanne,VD,Romandy,International Organisations,2026-01-01 00:00:00+00:00,9,122614.0,89332.0,155303.0,4.6,22.2
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,3,155850.0,110955.0,195646.0,4.3,33.3
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-03-01 00:00:00+00:00,7,139996.0,93162.0,169071.0,2.6,42.9
+Lausanne,VD,Romandy,Pharma & Biotech,2026-06-01 00:00:00+00:00,5,133375.0,113991.0,172336.0,4.0,40.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-09-01 00:00:00+00:00,6,147383.0,99937.0,185424.0,1.8,33.3
+Zug,ZG,Deutschschweiz,Healthcare,2025-09-01 00:00:00+00:00,1,157245.0,157245.0,157245.0,2.0,0.0
+Geneva,GE,Romandy,Healthcare,2025-12-01 00:00:00+00:00,2,110296.0,97975.0,122617.0,5.0,50.0
+Lausanne,VD,Romandy,International Organisations,2025-12-01 00:00:00+00:00,4,121204.0,106549.0,136928.0,3.0,75.0
+Geneva,GE,Romandy,Pharma & Biotech,2026-06-01 00:00:00+00:00,5,147261.0,106085.0,174217.0,3.4,60.0
+Basel,BS,Deutschschweiz,International Organisations,2025-09-01 00:00:00+00:00,23,147522.0,99717.0,191630.0,3.1,30.4
+Zurich,ZH,Deutschschweiz,Healthcare,2026-02-01 00:00:00+00:00,8,134123.0,107628.0,170517.0,4.4,25.0
+Zurich,ZH,Deutschschweiz,Consulting,2026-02-01 00:00:00+00:00,20,138363.0,99139.0,182841.0,4.6,40.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-06-01 00:00:00+00:00,27,146630.0,99566.0,192907.0,3.6,33.3
+Bern,BE,Deutschschweiz,International Organisations,2025-06-01 00:00:00+00:00,1,142093.0,142093.0,142093.0,6.0,100.0
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2025-08-01 00:00:00+00:00,2,144274.0,133377.0,155170.0,4.0,50.0
+Geneva,GE,Romandy,Healthcare,2026-01-01 00:00:00+00:00,1,117217.0,117217.0,117217.0,1.0,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-12-01 00:00:00+00:00,21,145299.0,94227.0,197784.0,4.5,47.6
+Basel,BS,Deutschschweiz,Healthcare,2025-07-01 00:00:00+00:00,6,126065.0,105845.0,145759.0,4.2,16.7
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-05-01 00:00:00+00:00,12,142043.0,114751.0,181530.0,4.4,16.7
+Geneva,GE,Romandy,Commodities & Trading,2025-08-01 00:00:00+00:00,3,126413.0,107834.0,159504.0,3.7,33.3
+St. Gallen,SG,Deutschschweiz,Consulting,2025-07-01 00:00:00+00:00,1,138944.0,138944.0,138944.0,4.0,0.0
+Zug,ZG,Deutschschweiz,Consulting,2025-08-01 00:00:00+00:00,1,155195.0,155195.0,155195.0,7.0,0.0
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2025-10-01 00:00:00+00:00,1,131074.0,131074.0,131074.0,5.0,0.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,47,135447.0,93843.0,194937.0,4.2,31.9
+Bern,BE,Deutschschweiz,Healthcare,2025-10-01 00:00:00+00:00,4,144476.0,125550.0,167158.0,4.8,50.0
+Geneva,GE,Romandy,Healthcare,2026-03-01 00:00:00+00:00,3,146122.0,106729.0,199068.0,6.3,66.7
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2026-02-01 00:00:00+00:00,2,159865.0,140080.0,179649.0,7.5,100.0
+Geneva,GE,Romandy,Consulting,2025-09-01 00:00:00+00:00,3,125413.0,95588.0,167396.0,6.3,33.3
+Bern,BE,Deutschschweiz,Healthcare,2025-11-01 00:00:00+00:00,3,153963.0,134905.0,172291.0,4.0,33.3
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2026-05-01 00:00:00+00:00,1,152009.0,152009.0,152009.0,5.0,0.0
+Lucerne,LU,Deutschschweiz,Healthcare,2025-06-01 00:00:00+00:00,1,105694.0,105694.0,105694.0,8.0,100.0
+Zurich,ZH,Deutschschweiz,Healthcare,2026-01-01 00:00:00+00:00,4,140588.0,105703.0,186747.0,3.3,50.0
+Zurich,ZH,Deutschschweiz,International Organisations,2026-03-01 00:00:00+00:00,22,137373.0,87675.0,179864.0,4.8,50.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-05-01 00:00:00+00:00,16,130067.0,96436.0,174745.0,3.1,31.3
+Basel,BS,Deutschschweiz,Consulting,2026-02-01 00:00:00+00:00,7,136112.0,98100.0,154982.0,3.7,42.9
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2026-05-01 00:00:00+00:00,2,122164.0,120567.0,123760.0,0.5,0.0
+Lausanne,VD,Romandy,International Organisations,2025-09-01 00:00:00+00:00,5,147252.0,110292.0,208232.0,2.0,40.0
+Geneva,GE,Romandy,Finance & Banking,2026-03-01 00:00:00+00:00,17,127272.0,90083.0,178932.0,3.6,47.1
+Lausanne,VD,Romandy,Technology & SaaS,2025-06-01 00:00:00+00:00,5,124992.0,97607.0,153255.0,5.2,40.0
+Geneva,GE,Romandy,Technology & SaaS,2025-10-01 00:00:00+00:00,13,128837.0,96123.0,173396.0,4.9,38.5
+Lausanne,VD,Romandy,Pharma & Biotech,2025-07-01 00:00:00+00:00,3,115811.0,104842.0,129288.0,5.3,66.7
+Lausanne,VD,Romandy,Technology & SaaS,2025-12-01 00:00:00+00:00,14,137788.0,86627.0,195891.0,4.6,42.9
+Lausanne,VD,Romandy,Consulting,2026-06-01 00:00:00+00:00,2,127273.0,99403.0,155143.0,5.0,50.0
+Lausanne,VD,Romandy,Technology & SaaS,2025-08-01 00:00:00+00:00,13,118281.0,97176.0,145369.0,3.8,30.8
+Geneva,GE,Romandy,Technology & SaaS,2025-06-01 00:00:00+00:00,7,134980.0,106089.0,188177.0,6.0,28.6
+Bern,BE,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,2,137069.0,96564.0,177574.0,6.5,50.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-08-01 00:00:00+00:00,6,122393.0,100950.0,152572.0,3.5,50.0
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2026-03-01 00:00:00+00:00,8,139183.0,110825.0,182701.0,4.1,62.5
+St. Gallen,SG,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,1,115728.0,115728.0,115728.0,7.0,0.0
+Lausanne,VD,Romandy,Healthcare,2026-04-01 00:00:00+00:00,4,116901.0,103602.0,132016.0,3.8,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2026-05-01 00:00:00+00:00,16,149230.0,98498.0,205866.0,3.6,25.0
+Geneva,GE,Romandy,Consulting,2025-12-01 00:00:00+00:00,4,178130.0,166231.0,189910.0,5.5,25.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-02-01 00:00:00+00:00,31,133247.0,99852.0,165208.0,4.1,41.9
+Basel,BS,Deutschschweiz,Consulting,2025-06-01 00:00:00+00:00,3,151170.0,126947.0,185414.0,4.3,100.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,3,145070.0,129779.0,153355.0,5.7,33.3
+Zurich,ZH,Deutschschweiz,Consulting,2025-07-01 00:00:00+00:00,14,138820.0,108546.0,189965.0,3.5,42.9
+Lucerne,LU,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,1,127464.0,127464.0,127464.0,4.0,0.0
+Bern,BE,Deutschschweiz,Finance & Banking,2026-01-01 00:00:00+00:00,12,142095.0,120157.0,165620.0,2.8,25.0
+Zug,ZG,Deutschschweiz,Commodities & Trading,2025-08-01 00:00:00+00:00,1,115615.0,115615.0,115615.0,4.0,0.0
+Zug,ZG,Deutschschweiz,Finance & Banking,2026-06-01 00:00:00+00:00,3,137481.0,99158.0,157348.0,5.0,33.3
+Basel,BS,Deutschschweiz,Healthcare,2025-08-01 00:00:00+00:00,4,132200.0,118742.0,162206.0,4.0,50.0
+Lucerne,LU,Deutschschweiz,Consulting,2025-11-01 00:00:00+00:00,1,138130.0,138130.0,138130.0,5.0,0.0
+Lucerne,LU,Deutschschweiz,Consulting,2025-08-01 00:00:00+00:00,2,118578.0,114562.0,122593.0,5.0,50.0
+Geneva,GE,Romandy,International Organisations,2025-09-01 00:00:00+00:00,7,129841.0,96640.0,165920.0,5.4,42.9
+St. Gallen,SG,Deutschschweiz,International Organisations,2025-07-01 00:00:00+00:00,1,121841.0,121841.0,121841.0,5.0,100.0
+Bern,BE,Deutschschweiz,Finance & Banking,2026-02-01 00:00:00+00:00,10,125585.0,93401.0,166269.0,3.6,30.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-06-01 00:00:00+00:00,6,135002.0,105637.0,190078.0,2.0,33.3
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,4,135777.0,113229.0,154460.0,3.5,50.0
+Zurich,ZH,Deutschschweiz,Consulting,2026-03-01 00:00:00+00:00,18,142292.0,90153.0,189318.0,4.1,38.9
+Zurich,ZH,Deutschschweiz,Healthcare,2025-06-01 00:00:00+00:00,3,144056.0,117503.0,193947.0,4.7,33.3
+Zurich,ZH,Deutschschweiz,Healthcare,2025-12-01 00:00:00+00:00,4,151308.0,130380.0,169741.0,2.3,25.0
+Geneva,GE,Romandy,International Organisations,2025-06-01 00:00:00+00:00,4,133394.0,97260.0,173006.0,5.5,75.0
+Lausanne,VD,Romandy,Commodities & Trading,2026-06-01 00:00:00+00:00,1,119945.0,119945.0,119945.0,5.0,100.0
+Lausanne,VD,Romandy,Consulting,2025-12-01 00:00:00+00:00,4,142990.0,86884.0,206300.0,4.3,50.0
+Bern,BE,Deutschschweiz,Healthcare,2025-06-01 00:00:00+00:00,1,136261.0,136261.0,136261.0,4.0,0.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,1,131520.0,131520.0,131520.0,1.0,100.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-07-01 00:00:00+00:00,14,147869.0,103120.0,189398.0,4.1,64.3
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-11-01 00:00:00+00:00,17,134046.0,102064.0,176818.0,3.9,35.3
+Zug,ZG,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,5,143211.0,119945.0,168669.0,1.6,20.0
+St. Gallen,SG,Deutschschweiz,Pharma & Biotech,2025-11-01 00:00:00+00:00,1,132387.0,132387.0,132387.0,5.0,100.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-10-01 00:00:00+00:00,15,123688.0,97975.0,167612.0,2.6,13.3
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,15,127216.0,88976.0,176865.0,3.3,33.3
+Lugano,TI,Ticino,Healthcare,2026-05-01 00:00:00+00:00,1,134764.0,134764.0,134764.0,8.0,100.0
+St. Gallen,SG,Deutschschweiz,Consulting,2025-11-01 00:00:00+00:00,1,143014.0,143014.0,143014.0,1.0,0.0
+Lucerne,LU,Deutschschweiz,Consulting,2025-10-01 00:00:00+00:00,1,150150.0,150150.0,150150.0,2.0,0.0
+Bern,BE,Deutschschweiz,Commodities & Trading,2025-07-01 00:00:00+00:00,1,160665.0,160665.0,160665.0,5.0,0.0
+Zug,ZG,Deutschschweiz,Commodities & Trading,2026-01-01 00:00:00+00:00,4,140559.0,109287.0,162659.0,5.8,0.0
+Bern,BE,Deutschschweiz,Consulting,2026-06-01 00:00:00+00:00,3,141227.0,130079.0,161282.0,2.7,33.3
+Geneva,GE,Romandy,Consulting,2025-11-01 00:00:00+00:00,10,132659.0,97812.0,164876.0,3.8,30.0
+Winterthur,ZH,Deutschschweiz,Consulting,2025-12-01 00:00:00+00:00,1,176240.0,176240.0,176240.0,0.0,100.0
+Bern,BE,Deutschschweiz,Finance & Banking,2025-09-01 00:00:00+00:00,6,147081.0,113577.0,181379.0,3.8,66.7
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,2,117181.0,107650.0,126712.0,5.5,50.0
+Lausanne,VD,Romandy,Finance & Banking,2026-02-01 00:00:00+00:00,13,133208.0,84715.0,202663.0,3.9,46.2
+Geneva,GE,Romandy,Commodities & Trading,2025-12-01 00:00:00+00:00,6,131979.0,101431.0,166033.0,5.3,33.3
+Geneva,GE,Romandy,Technology & SaaS,2026-01-01 00:00:00+00:00,19,129732.0,96284.0,190922.0,4.5,31.6
+Bern,BE,Deutschschweiz,Healthcare,2025-09-01 00:00:00+00:00,3,132374.0,127241.0,141044.0,5.0,33.3
+Zurich,ZH,Deutschschweiz,Consulting,2025-12-01 00:00:00+00:00,19,140368.0,89845.0,181635.0,3.8,31.6
+Lucerne,LU,Deutschschweiz,Consulting,2025-09-01 00:00:00+00:00,1,150725.0,150725.0,150725.0,7.0,0.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2026-06-01 00:00:00+00:00,1,147729.0,147729.0,147729.0,4.0,0.0
+Zug,ZG,Deutschschweiz,Healthcare,2026-04-01 00:00:00+00:00,1,124362.0,124362.0,124362.0,8.0,0.0
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,2,143418.0,124539.0,162297.0,4.0,50.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,29,135751.0,85705.0,196418.0,3.6,31.0
+Zug,ZG,Deutschschweiz,International Organisations,2026-06-01 00:00:00+00:00,1,115355.0,115355.0,115355.0,2.0,100.0
+Lugano,TI,Ticino,Finance & Banking,2026-05-01 00:00:00+00:00,1,133778.0,133778.0,133778.0,7.0,100.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,48,139779.0,89859.0,195849.0,4.0,37.5
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,4,115743.0,101465.0,150365.0,2.8,25.0
+Basel,BS,Deutschschweiz,Healthcare,2026-02-01 00:00:00+00:00,2,114357.0,105869.0,122844.0,6.0,0.0
+Basel,BS,Deutschschweiz,Consulting,2026-01-01 00:00:00+00:00,7,129583.0,107552.0,184065.0,4.0,14.3
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-08-01 00:00:00+00:00,1,114569.0,114569.0,114569.0,5.0,100.0
+Geneva,GE,Romandy,Healthcare,2025-11-01 00:00:00+00:00,4,144604.0,109776.0,171568.0,4.8,25.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-04-01 00:00:00+00:00,26,137975.0,99973.0,202729.0,4.1,53.8
+Geneva,GE,Romandy,Pharma & Biotech,2026-04-01 00:00:00+00:00,10,127467.0,98049.0,182223.0,3.3,10.0
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,1,139331.0,139331.0,139331.0,1.0,100.0
+Lugano,TI,Ticino,Technology & SaaS,2026-03-01 00:00:00+00:00,1,148276.0,148276.0,148276.0,6.0,0.0
+Lausanne,VD,Romandy,Finance & Banking,2025-07-01 00:00:00+00:00,14,135074.0,94395.0,179598.0,3.0,57.1
+Lucerne,LU,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,3,107922.0,92659.0,131283.0,2.7,0.0
+Lausanne,VD,Romandy,Commodities & Trading,2025-12-01 00:00:00+00:00,1,108596.0,108596.0,108596.0,6.0,100.0
+Geneva,GE,Romandy,Finance & Banking,2025-11-01 00:00:00+00:00,27,139208.0,108047.0,197589.0,4.4,44.4
+Geneva,GE,Romandy,International Organisations,2026-05-01 00:00:00+00:00,5,152090.0,103182.0,190733.0,3.8,80.0
+Geneva,GE,Romandy,Finance & Banking,2026-06-01 00:00:00+00:00,17,140599.0,90860.0,210497.0,4.1,52.9
+Zurich,ZH,Deutschschweiz,International Organisations,2025-10-01 00:00:00+00:00,21,130097.0,102596.0,171642.0,3.5,38.1
+Zug,ZG,Deutschschweiz,Technology & SaaS,2026-03-01 00:00:00+00:00,1,101612.0,101612.0,101612.0,2.0,100.0
+Bern,BE,Deutschschweiz,Consulting,2025-12-01 00:00:00+00:00,1,111959.0,111959.0,111959.0,4.0,100.0
+Zurich,ZH,Deutschschweiz,Consulting,2025-09-01 00:00:00+00:00,17,131723.0,111452.0,184244.0,3.2,35.3
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-12-01 00:00:00+00:00,2,117405.0,96347.0,138463.0,5.5,0.0
+Bern,BE,Deutschschweiz,Finance & Banking,2025-11-01 00:00:00+00:00,15,139997.0,93413.0,192281.0,3.5,53.3
+Geneva,GE,Romandy,Pharma & Biotech,2025-11-01 00:00:00+00:00,9,148375.0,94989.0,194923.0,3.9,22.2
+Lausanne,VD,Romandy,Consulting,2026-02-01 00:00:00+00:00,2,163130.0,152576.0,173683.0,2.0,0.0
+Geneva,GE,Romandy,Commodities & Trading,2025-10-01 00:00:00+00:00,4,139084.0,108286.0,180446.0,2.3,50.0
+Geneva,GE,Romandy,International Organisations,2026-02-01 00:00:00+00:00,9,138900.0,92981.0,186949.0,4.9,44.4
+Zug,ZG,Deutschschweiz,Finance & Banking,2025-07-01 00:00:00+00:00,2,121767.0,117847.0,125686.0,1.0,0.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-06-01 00:00:00+00:00,24,135033.0,86015.0,201067.0,3.1,25.0
+Bern,BE,Deutschschweiz,Healthcare,2025-07-01 00:00:00+00:00,1,172463.0,172463.0,172463.0,7.0,0.0
+Basel,BS,Deutschschweiz,Healthcare,2025-09-01 00:00:00+00:00,6,148308.0,109804.0,186264.0,4.2,33.3
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,1,126919.0,126919.0,126919.0,3.0,0.0
+Geneva,GE,Romandy,Consulting,2026-01-01 00:00:00+00:00,13,135424.0,103651.0,162493.0,3.3,30.8
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,1,139932.0,139932.0,139932.0,6.0,100.0
+Geneva,GE,Romandy,Consulting,2026-06-01 00:00:00+00:00,3,118054.0,87736.0,152081.0,4.3,33.3
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2026-03-01 00:00:00+00:00,1,141768.0,141768.0,141768.0,5.0,100.0
+Bern,BE,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,6,129572.0,95057.0,158316.0,2.8,33.3
+Geneva,GE,Romandy,Consulting,2026-03-01 00:00:00+00:00,7,134723.0,95357.0,169805.0,4.9,42.9
+Bern,BE,Deutschschweiz,International Organisations,2026-01-01 00:00:00+00:00,7,140480.0,105108.0,186365.0,6.0,42.9
+St. Gallen,SG,Deutschschweiz,Consulting,2026-02-01 00:00:00+00:00,1,157383.0,157383.0,157383.0,2.0,100.0
+Geneva,GE,Romandy,Finance & Banking,2025-09-01 00:00:00+00:00,17,139952.0,103663.0,188594.0,4.5,35.3
+Lausanne,VD,Romandy,Pharma & Biotech,2026-04-01 00:00:00+00:00,5,144183.0,111523.0,172931.0,4.0,40.0
+Winterthur,ZH,Deutschschweiz,Healthcare,2026-04-01 00:00:00+00:00,1,213184.0,213184.0,213184.0,1.0,0.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-06-01 00:00:00+00:00,4,140372.0,110571.0,174467.0,5.5,50.0
+Winterthur,ZH,Deutschschweiz,International Organisations,2026-04-01 00:00:00+00:00,1,167321.0,167321.0,167321.0,1.0,0.0
+Geneva,GE,Romandy,International Organisations,2026-04-01 00:00:00+00:00,9,132763.0,97864.0,169713.0,3.3,55.6
+Bern,BE,Deutschschweiz,International Organisations,2025-10-01 00:00:00+00:00,3,148465.0,98112.0,183474.0,4.7,0.0
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-05-01 00:00:00+00:00,28,131475.0,83797.0,166168.0,4.7,21.4
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-06-01 00:00:00+00:00,3,170531.0,147680.0,199885.0,4.7,66.7
+Lugano,TI,Ticino,Technology & SaaS,2026-05-01 00:00:00+00:00,1,154938.0,154938.0,154938.0,4.0,100.0
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-03-01 00:00:00+00:00,2,124431.0,111282.0,137579.0,0.5,50.0
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,1,130909.0,130909.0,130909.0,2.0,0.0
+Basel,BS,Deutschschweiz,International Organisations,2026-05-01 00:00:00+00:00,10,131359.0,91545.0,177997.0,4.4,60.0
+Zug,ZG,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,4,125098.0,112221.0,145062.0,4.8,50.0
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-03-01 00:00:00+00:00,17,136146.0,105204.0,179725.0,2.6,29.4
+Lausanne,VD,Romandy,Consulting,2025-07-01 00:00:00+00:00,7,148857.0,94496.0,187011.0,4.0,71.4
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-05-01 00:00:00+00:00,1,125579.0,125579.0,125579.0,3.0,0.0
+Zug,ZG,Deutschschweiz,Consulting,2026-01-01 00:00:00+00:00,1,122224.0,122224.0,122224.0,4.0,100.0
+Geneva,GE,Romandy,Commodities & Trading,2026-02-01 00:00:00+00:00,6,128888.0,87938.0,158126.0,1.8,50.0
+Lausanne,VD,Romandy,Commodities & Trading,2025-06-01 00:00:00+00:00,5,135524.0,116430.0,173295.0,5.2,40.0
+Lausanne,VD,Romandy,Consulting,2026-03-01 00:00:00+00:00,4,138454.0,127527.0,153982.0,7.0,50.0
+Bern,BE,Deutschschweiz,International Organisations,2025-08-01 00:00:00+00:00,1,122188.0,122188.0,122188.0,5.0,100.0
+St. Gallen,SG,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,1,85423.0,85423.0,85423.0,3.0,100.0
+Lausanne,VD,Romandy,Pharma & Biotech,2026-05-01 00:00:00+00:00,9,153576.0,120551.0,192161.0,1.9,55.6
+Basel,BS,Deutschschweiz,Finance & Banking,2026-02-01 00:00:00+00:00,20,134100.0,86061.0,185537.0,3.5,45.0
+Bern,BE,Deutschschweiz,Finance & Banking,2025-07-01 00:00:00+00:00,6,135955.0,117501.0,153717.0,6.3,16.7
+Basel,BS,Deutschschweiz,Technology & SaaS,2025-07-01 00:00:00+00:00,20,138483.0,102041.0,187224.0,4.0,40.0
+Winterthur,ZH,Deutschschweiz,Consulting,2025-11-01 00:00:00+00:00,1,133348.0,133348.0,133348.0,7.0,100.0
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2025-12-01 00:00:00+00:00,2,158966.0,153022.0,164909.0,8.0,50.0
+Basel,BS,Deutschschweiz,Consulting,2026-03-01 00:00:00+00:00,7,142979.0,108677.0,185802.0,3.6,28.6
+Basel,BS,Deutschschweiz,Healthcare,2026-03-01 00:00:00+00:00,5,151102.0,107218.0,190399.0,5.6,20.0
+Lausanne,VD,Romandy,Healthcare,2025-12-01 00:00:00+00:00,3,150507.0,136214.0,160193.0,2.3,0.0
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-02-01 00:00:00+00:00,5,133812.0,112956.0,178165.0,4.0,40.0
+Lausanne,VD,Romandy,Pharma & Biotech,2026-03-01 00:00:00+00:00,5,117798.0,92431.0,154180.0,1.0,20.0
+Lugano,TI,Ticino,Technology & SaaS,2025-08-01 00:00:00+00:00,1,140614.0,140614.0,140614.0,7.0,0.0
+Lausanne,VD,Romandy,Finance & Banking,2025-11-01 00:00:00+00:00,29,130671.0,100392.0,171889.0,4.5,48.3
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,1,141177.0,141177.0,141177.0,2.0,0.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2026-01-01 00:00:00+00:00,12,125545.0,100038.0,175726.0,3.1,41.7
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-09-01 00:00:00+00:00,4,133043.0,107860.0,192044.0,3.5,100.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-09-01 00:00:00+00:00,52,132470.0,91617.0,209799.0,3.9,48.1
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2026-06-01 00:00:00+00:00,26,136986.0,102116.0,183096.0,4.6,53.8
+Basel,BS,Deutschschweiz,Commodities & Trading,2026-05-01 00:00:00+00:00,3,149202.0,142206.0,157281.0,5.3,33.3
+Geneva,GE,Romandy,Technology & SaaS,2025-08-01 00:00:00+00:00,24,132309.0,92074.0,174024.0,3.5,37.5
+Zug,ZG,Deutschschweiz,Consulting,2026-03-01 00:00:00+00:00,1,107895.0,107895.0,107895.0,3.0,100.0
+Winterthur,ZH,Deutschschweiz,Consulting,2026-02-01 00:00:00+00:00,1,112729.0,112729.0,112729.0,0.0,0.0
+Geneva,GE,Romandy,Pharma & Biotech,2025-10-01 00:00:00+00:00,12,142460.0,104492.0,169635.0,4.8,66.7
+Geneva,GE,Romandy,Consulting,2025-07-01 00:00:00+00:00,7,117353.0,84488.0,134915.0,5.1,85.7
+Bern,BE,Deutschschweiz,Commodities & Trading,2025-12-01 00:00:00+00:00,6,129542.0,92462.0,151182.0,6.0,66.7
+Winterthur,ZH,Deutschschweiz,Technology & SaaS,2025-07-01 00:00:00+00:00,1,119597.0,119597.0,119597.0,0.0,0.0
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-09-01 00:00:00+00:00,1,118836.0,118836.0,118836.0,1.0,0.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-08-01 00:00:00+00:00,7,123903.0,114145.0,153913.0,3.7,28.6
+St. Gallen,SG,Deutschschweiz,Technology & SaaS,2025-09-01 00:00:00+00:00,1,111189.0,111189.0,111189.0,7.0,0.0
+Lausanne,VD,Romandy,Pharma & Biotech,2025-11-01 00:00:00+00:00,10,140201.0,105884.0,167656.0,3.6,50.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,1,162100.0,162100.0,162100.0,1.0,100.0
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2026-06-01 00:00:00+00:00,1,123750.0,123750.0,123750.0,2.0,0.0
+Geneva,GE,Romandy,Commodities & Trading,2025-11-01 00:00:00+00:00,6,115620.0,92782.0,131690.0,2.7,50.0
+Lucerne,LU,Deutschschweiz,Finance & Banking,2026-04-01 00:00:00+00:00,2,135657.0,120178.0,151135.0,2.5,50.0
+Lausanne,VD,Romandy,Finance & Banking,2025-10-01 00:00:00+00:00,19,138765.0,100929.0,187329.0,4.3,57.9
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2026-04-01 00:00:00+00:00,1,144146.0,144146.0,144146.0,0.0,100.0
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-12-01 00:00:00+00:00,26,137740.0,92443.0,169566.0,4.7,23.1
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-02-01 00:00:00+00:00,15,150610.0,102752.0,198434.0,4.5,33.3
+Lausanne,VD,Romandy,Technology & SaaS,2026-02-01 00:00:00+00:00,12,141039.0,104868.0,177236.0,2.7,16.7
+Bern,BE,Deutschschweiz,Consulting,2026-02-01 00:00:00+00:00,5,149602.0,125113.0,178094.0,3.6,60.0
+Lausanne,VD,Romandy,Healthcare,2025-08-01 00:00:00+00:00,1,104415.0,104415.0,104415.0,8.0,100.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2025-06-01 00:00:00+00:00,1,133237.0,133237.0,133237.0,7.0,0.0
+Basel,BS,Deutschschweiz,International Organisations,2026-01-01 00:00:00+00:00,4,109578.0,89429.0,122360.0,5.5,25.0
+Zug,ZG,Deutschschweiz,Commodities & Trading,2025-06-01 00:00:00+00:00,2,145530.0,114562.0,176498.0,6.5,50.0
+Lausanne,VD,Romandy,Pharma & Biotech,2026-01-01 00:00:00+00:00,7,117288.0,98870.0,149844.0,7.1,42.9
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-01-01 00:00:00+00:00,38,127712.0,87209.0,185501.0,4.4,47.4
+Lausanne,VD,Romandy,International Organisations,2026-04-01 00:00:00+00:00,9,136597.0,106490.0,167447.0,3.0,33.3
+Lausanne,VD,Romandy,Commodities & Trading,2026-03-01 00:00:00+00:00,7,134656.0,100987.0,176548.0,3.7,71.4
+Lausanne,VD,Romandy,Technology & SaaS,2026-05-01 00:00:00+00:00,11,146274.0,112968.0,170599.0,3.5,54.5
+Geneva,GE,Romandy,Commodities & Trading,2026-03-01 00:00:00+00:00,7,133819.0,110552.0,174855.0,4.4,28.6
+Geneva,GE,Romandy,Finance & Banking,2025-12-01 00:00:00+00:00,17,135052.0,103705.0,173145.0,3.9,35.3
+Zug,ZG,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,1,174836.0,174836.0,174836.0,8.0,100.0
+Winterthur,ZH,Deutschschweiz,Technology & SaaS,2026-02-01 00:00:00+00:00,1,140070.0,140070.0,140070.0,8.0,0.0
+Bern,BE,Deutschschweiz,International Organisations,2026-02-01 00:00:00+00:00,5,116571.0,98890.0,138941.0,5.4,40.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-11-01 00:00:00+00:00,4,161207.0,136144.0,184929.0,5.5,25.0
+Basel,BS,Deutschschweiz,Consulting,2026-06-01 00:00:00+00:00,8,131567.0,88306.0,183842.0,4.5,37.5
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,6,122786.0,95310.0,155280.0,4.5,33.3
+Lucerne,LU,Deutschschweiz,Finance & Banking,2026-05-01 00:00:00+00:00,2,113779.0,102971.0,124587.0,2.5,0.0
+Basel,BS,Deutschschweiz,Consulting,2025-12-01 00:00:00+00:00,7,136817.0,108563.0,186672.0,4.4,85.7
+Geneva,GE,Romandy,Finance & Banking,2026-01-01 00:00:00+00:00,20,138791.0,98955.0,181981.0,4.1,65.0
+Winterthur,ZH,Deutschschweiz,International Organisations,2026-05-01 00:00:00+00:00,1,95764.0,95764.0,95764.0,3.0,0.0
+Lucerne,LU,Deutschschweiz,Pharma & Biotech,2026-01-01 00:00:00+00:00,2,137676.0,134574.0,140778.0,5.0,0.0
+Winterthur,ZH,Deutschschweiz,International Organisations,2025-12-01 00:00:00+00:00,1,135128.0,135128.0,135128.0,0.0,0.0
+Geneva,GE,Romandy,Consulting,2025-08-01 00:00:00+00:00,3,153197.0,122615.0,182189.0,5.7,33.3
+Basel,BS,Deutschschweiz,Healthcare,2026-04-01 00:00:00+00:00,1,112164.0,112164.0,112164.0,4.0,0.0
+Lausanne,VD,Romandy,Commodities & Trading,2026-01-01 00:00:00+00:00,5,124981.0,113260.0,147799.0,3.4,60.0
+Zug,ZG,Deutschschweiz,Consulting,2025-09-01 00:00:00+00:00,1,189899.0,189899.0,189899.0,2.0,0.0
+Lausanne,VD,Romandy,Technology & SaaS,2026-01-01 00:00:00+00:00,12,149270.0,97159.0,175454.0,3.6,33.3
+St. Gallen,SG,Deutschschweiz,Technology & SaaS,2025-06-01 00:00:00+00:00,1,155817.0,155817.0,155817.0,3.0,100.0
+Basel,BS,Deutschschweiz,Healthcare,2026-05-01 00:00:00+00:00,2,137883.0,123639.0,152126.0,4.5,0.0
+Basel,BS,Deutschschweiz,Finance & Banking,2026-06-01 00:00:00+00:00,19,137565.0,96545.0,186920.0,4.2,26.3
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-06-01 00:00:00+00:00,14,131823.0,97444.0,177938.0,4.6,42.9
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-06-01 00:00:00+00:00,7,122881.0,95204.0,163302.0,4.7,14.3
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-06-01 00:00:00+00:00,2,138099.0,122169.0,154029.0,3.5,0.0
+Lausanne,VD,Romandy,Consulting,2025-09-01 00:00:00+00:00,5,152120.0,122728.0,197156.0,3.0,40.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-11-01 00:00:00+00:00,18,141171.0,109928.0,195835.0,3.7,44.4
+Zurich,ZH,Deutschschweiz,Commodities & Trading,2025-12-01 00:00:00+00:00,10,136696.0,97840.0,169337.0,3.7,70.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,40,142638.0,94903.0,202441.0,3.8,50.0
+Lugano,TI,Ticino,Technology & SaaS,2025-09-01 00:00:00+00:00,2,126163.0,107348.0,144978.0,5.5,0.0
+Lausanne,VD,Romandy,Finance & Banking,2026-03-01 00:00:00+00:00,11,146577.0,118321.0,194970.0,3.8,54.5
+Bern,BE,Deutschschweiz,Commodities & Trading,2026-04-01 00:00:00+00:00,2,98102.0,86277.0,109927.0,5.0,100.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2026-02-01 00:00:00+00:00,1,96510.0,96510.0,96510.0,1.0,0.0
+Zurich,ZH,Deutschschweiz,Finance & Banking,2026-03-01 00:00:00+00:00,35,145282.0,98905.0,206869.0,4.2,45.7
+Geneva,GE,Romandy,Commodities & Trading,2026-06-01 00:00:00+00:00,5,126311.0,99495.0,144007.0,3.0,20.0
+Zurich,ZH,Deutschschweiz,International Organisations,2026-06-01 00:00:00+00:00,12,128009.0,96202.0,171635.0,4.0,41.7
+Geneva,GE,Romandy,Pharma & Biotech,2025-08-01 00:00:00+00:00,11,141991.0,107585.0,185032.0,2.7,36.4
+Lucerne,LU,Deutschschweiz,Healthcare,2025-10-01 00:00:00+00:00,1,144510.0,144510.0,144510.0,0.0,0.0
+Winterthur,ZH,Deutschschweiz,Finance & Banking,2025-07-01 00:00:00+00:00,1,121756.0,121756.0,121756.0,0.0,0.0
+Zurich,ZH,Deutschschweiz,International Organisations,2025-07-01 00:00:00+00:00,22,136780.0,102005.0,168732.0,3.8,40.9
+Winterthur,ZH,Deutschschweiz,Technology & SaaS,2025-08-01 00:00:00+00:00,1,174517.0,174517.0,174517.0,8.0,0.0
+Geneva,GE,Romandy,Finance & Banking,2026-04-01 00:00:00+00:00,15,119497.0,89770.0,159268.0,2.9,60.0
+Basel,BS,Deutschschweiz,Finance & Banking,2026-01-01 00:00:00+00:00,22,136533.0,90017.0,188468.0,4.0,45.5
+Geneva,GE,Romandy,Pharma & Biotech,2026-02-01 00:00:00+00:00,14,149602.0,104928.0,207440.0,4.9,57.1
+Zug,ZG,Deutschschweiz,Pharma & Biotech,2025-10-01 00:00:00+00:00,3,153714.0,95254.0,202787.0,2.7,33.3
+Bern,BE,Deutschschweiz,Commodities & Trading,2025-10-01 00:00:00+00:00,4,149710.0,113865.0,188304.0,2.8,25.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,12,135378.0,100355.0,181989.0,4.0,41.7
+Zurich,ZH,Deutschschweiz,Consulting,2026-06-01 00:00:00+00:00,8,135938.0,110748.0,198837.0,3.5,50.0
+Lausanne,VD,Romandy,Pharma & Biotech,2026-02-01 00:00:00+00:00,4,138174.0,105710.0,190660.0,3.5,50.0
+Lausanne,VD,Romandy,Finance & Banking,2026-04-01 00:00:00+00:00,16,129227.0,92286.0,160397.0,4.2,68.8
+Basel,BS,Deutschschweiz,Pharma & Biotech,2026-01-01 00:00:00+00:00,16,130119.0,87933.0,163878.0,4.3,43.8
+Lausanne,VD,Romandy,Commodities & Trading,2025-09-01 00:00:00+00:00,1,100290.0,100290.0,100290.0,3.0,100.0
+Bern,BE,Deutschschweiz,Technology & SaaS,2026-04-01 00:00:00+00:00,6,142661.0,108574.0,194222.0,4.7,66.7
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-04-01 00:00:00+00:00,6,126707.0,110286.0,143941.0,4.2,33.3
+Geneva,GE,Romandy,Pharma & Biotech,2026-03-01 00:00:00+00:00,11,142072.0,99057.0,190963.0,2.5,36.4
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,4,121169.0,109033.0,139238.0,6.5,75.0
+Lausanne,VD,Romandy,Healthcare,2025-11-01 00:00:00+00:00,2,164651.0,159805.0,169497.0,5.0,100.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-05-01 00:00:00+00:00,3,123725.0,111680.0,131773.0,3.0,66.7
+Lucerne,LU,Deutschschweiz,Technology & SaaS,2025-10-01 00:00:00+00:00,1,88730.0,88730.0,88730.0,2.0,0.0
+Zurich,ZH,Deutschschweiz,Healthcare,2025-11-01 00:00:00+00:00,8,151091.0,122902.0,183055.0,4.0,75.0
+Lugano,TI,Ticino,Pharma & Biotech,2026-01-01 00:00:00+00:00,1,110651.0,110651.0,110651.0,6.0,0.0
+Basel,BS,Deutschschweiz,International Organisations,2026-06-01 00:00:00+00:00,7,142579.0,107708.0,197250.0,3.7,28.6
+Zurich,ZH,Deutschschweiz,Technology & SaaS,2025-07-01 00:00:00+00:00,46,140708.0,90899.0,202918.0,4.3,43.5
+Lausanne,VD,Romandy,Commodities & Trading,2025-07-01 00:00:00+00:00,5,160742.0,129706.0,209487.0,3.6,20.0
+Bern,BE,Deutschschweiz,Finance & Banking,2025-10-01 00:00:00+00:00,13,127309.0,91384.0,165910.0,3.8,46.2
+Lausanne,VD,Romandy,Consulting,2025-10-01 00:00:00+00:00,5,123192.0,102480.0,168181.0,2.0,60.0
+Zug,ZG,Deutschschweiz,Consulting,2025-06-01 00:00:00+00:00,1,112554.0,112554.0,112554.0,0.0,0.0
+Basel,BS,Deutschschweiz,Pharma & Biotech,2025-06-01 00:00:00+00:00,8,121476.0,95727.0,164034.0,3.6,50.0
+Winterthur,ZH,Deutschschweiz,Pharma & Biotech,2025-09-01 00:00:00+00:00,2,155999.0,150489.0,161509.0,3.5,100.0
+Zurich,ZH,Deutschschweiz,Pharma & Biotech,2025-12-01 00:00:00+00:00,32,138019.0,87001.0,200891.0,4.2,31.3
+Lausanne,VD,Romandy,International Organisations,2026-06-01 00:00:00+00:00,2,153379.0,105542.0,201216.0,3.0,0.0
+Geneva,GE,Romandy,International Organisations,2025-10-01 00:00:00+00:00,10,118974.0,91805.0,156041.0,3.9,30.0
+Zurich,ZH,Deutschschweiz,Healthcare,2025-07-01 00:00:00+00:00,5,140162.0,114068.0,159421.0,3.0,40.0
+Geneva,GE,Romandy,Healthcare,2025-08-01 00:00:00+00:00,5,126371.0,102227.0,166241.0,4.0,40.0
+Lausanne,VD,Romandy,Finance & Banking,2025-12-01 00:00:00+00:00,14,142344.0,108195.0,181606.0,2.1,42.9
+Lausanne,VD,Romandy,Finance & Banking,2025-06-01 00:00:00+00:00,3,138224.0,98882.0,168789.0,3.0,0.0
+Basel,BS,Deutschschweiz,Technology & SaaS,2026-01-01 00:00:00+00:00,15,137532.0,97753.0,201325.0,3.7,40.0
+Zug,ZG,Deutschschweiz,Finance & Banking,2026-01-01 00:00:00+00:00,4,145339.0,112082.0,186895.0,5.3,75.0
+Zug,ZG,Deutschschweiz,Commodities & Trading,2026-03-01 00:00:00+00:00,1,139664.0,139664.0,139664.0,3.0,100.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2025-06-01 00:00:00+00:00,2,127410.0,107737.0,147082.0,3.0,50.0
+Basel,BS,Deutschschweiz,International Organisations,2025-11-01 00:00:00+00:00,12,128466.0,92712.0,175477.0,4.3,50.0
+Bern,BE,Deutschschweiz,Pharma & Biotech,2026-01-01 00:00:00+00:00,7,139080.0,99560.0,168725.0,5.0,42.9
+Lausanne,VD,Romandy,Finance & Banking,2026-05-01 00:00:00+00:00,12,137179.0,104848.0,189025.0,3.8,33.3
+Lugano,TI,Ticino,Technology & SaaS,2026-04-01 00:00:00+00:00,1,106552.0,106552.0,106552.0,3.0,0.0

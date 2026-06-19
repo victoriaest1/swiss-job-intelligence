@@ -1,0 +1,280 @@
+role,city_clean,region,seniority_level,salary_band,postings_count,avg_salary_chf,p25_salary,median_salary,p75_salary,min_salary,max_salary,avg_experience_yr
+Senior Data Scientist,Winterthur,Deutschschweiz,Senior,Lead (150K+),4,188634.0,177152.0,185846.0,197329.0,169660.0,213184.0,5.0
+Senior Data Scientist,Lucerne,Deutschschweiz,Senior,Lead (150K+),1,181936.0,181936.0,181936.0,181936.0,181936.0,181936.0,1.0
+Senior Data Scientist,Zug,Deutschschweiz,Senior,Lead (150K+),5,181506.0,160746.0,189899.0,202667.0,151432.0,202787.0,3.2
+Senior Data Scientist,Zurich,Deutschschweiz,Senior,Lead (150K+),134,180228.0,167233.0,182094.0,193263.0,150424.0,211977.0,3.8
+Senior Data Scientist,Geneva,Romandy,Senior,Lead (150K+),59,180042.0,163366.0,181981.0,190828.0,150532.0,211345.0,3.8
+Senior Data Scientist,Lausanne,Romandy,Senior,Lead (150K+),36,179688.0,168892.0,178244.0,190935.0,151053.0,209487.0,2.8
+Senior Data Scientist,Basel,Deutschschweiz,Senior,Lead (150K+),69,179629.0,167872.0,181828.0,190011.0,150586.0,210832.0,3.9
+Senior Data Scientist,Bern,Deutschschweiz,Senior,Lead (150K+),30,179547.0,168589.0,181338.0,191517.0,152136.0,200288.0,4.7
+ML Engineer,Lugano,Ticino,Mid,Lead (150K+),1,177724.0,177724.0,177724.0,177724.0,177724.0,177724.0,2.0
+Senior Data Engineer,Lausanne,Romandy,Senior,Lead (150K+),36,176293.0,166316.0,176004.0,187340.0,151003.0,197156.0,3.8
+Data Scientist,Lugano,Ticino,Mid,Lead (150K+),1,175124.0,175124.0,175124.0,175124.0,175124.0,175124.0,6.0
+Senior Data Engineer,Bern,Deutschschweiz,Senior,Lead (150K+),19,173228.0,164099.0,169739.0,184796.0,151714.0,192281.0,3.6
+Senior Data Engineer,Zurich,Deutschschweiz,Senior,Lead (150K+),133,172013.0,161437.0,173001.0,183067.0,150089.0,197228.0,3.9
+Senior Data Engineer,Basel,Deutschschweiz,Senior,Lead (150K+),63,171972.0,159238.0,174470.0,184494.0,151128.0,198434.0,3.9
+ML Engineer,Zug,Deutschschweiz,Mid,Lead (150K+),2,171236.0,168604.0,171236.0,173867.0,165973.0,176498.0,4.5
+Senior Data Engineer,Geneva,Romandy,Senior,Lead (150K+),49,169649.0,159839.0,170026.0,176517.0,152317.0,193409.0,4.2
+ML Engineer,Geneva,Romandy,Mid,Lead (150K+),26,169611.0,159084.0,169836.0,177168.0,151893.0,186538.0,4.5
+Senior Data Engineer,Lucerne,Deutschschweiz,Senior,Lead (150K+),3,169029.0,166816.0,173000.0,173226.0,160633.0,173453.0,2.3
+ML Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),44,168960.0,160620.0,170309.0,175652.0,150776.0,188119.0,4.0
+Senior Data Engineer,Zug,Deutschschweiz,Senior,Lead (150K+),6,168872.0,157258.0,168027.0,180412.0,152072.0,186895.0,2.8
+Data Scientist,Zurich,Deutschschweiz,Mid,Lead (150K+),60,167978.0,159592.0,168948.0,175440.0,150095.0,188431.0,3.7
+ML Engineer,Winterthur,Deutschschweiz,Mid,Lead (150K+),3,167890.0,162503.0,174517.0,176591.0,150489.0,178665.0,6.0
+ML Engineer,Lausanne,Romandy,Mid,Lead (150K+),20,167769.0,158330.0,167420.0,177758.0,151662.0,184781.0,4.0
+Data Scientist,Bern,Deutschschweiz,Mid,Lead (150K+),21,167547.0,160665.0,163808.0,177574.0,150342.0,183474.0,4.7
+Senior Data Engineer,Winterthur,Deutschschweiz,Senior,Lead (150K+),1,167321.0,167321.0,167321.0,167321.0,167321.0,167321.0,1.0
+Data Engineer,Lugano,Ticino,Mid,Lead (150K+),1,167269.0,167269.0,167269.0,167269.0,167269.0,167269.0,4.0
+ML Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),74,167213.0,157604.0,166261.0,177123.0,151270.0,186998.0,4.5
+Data Scientist,Geneva,Romandy,Mid,Lead (150K+),28,166786.0,157942.0,167142.0,174870.0,150093.0,187669.0,4.6
+Data Scientist,Winterthur,Deutschschweiz,Mid,Lead (150K+),4,166470.0,162858.0,168781.0,172392.0,152077.0,176240.0,3.3
+Data Scientist,Basel,Deutschschweiz,Mid,Lead (150K+),29,166164.0,158649.0,165736.0,172775.0,150348.0,187159.0,3.3
+Data Scientist,Lucerne,Deutschschweiz,Mid,Lead (150K+),1,165671.0,165671.0,165671.0,165671.0,165671.0,165671.0,3.0
+Data Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),54,164363.0,158161.0,165972.0,170002.0,150467.0,176809.0,3.9
+Data Scientist,Lausanne,Romandy,Mid,Lead (150K+),16,163789.0,157066.0,160242.0,169264.0,150901.0,187011.0,4.8
+Senior Data Engineer,St. Gallen,Deutschschweiz,Senior,Lead (150K+),2,163537.0,160460.0,163536.0,166613.0,157383.0,169690.0,5.0
+Senior Data Engineer,Lugano,Ticino,Senior,Lead (150K+),2,163522.0,157248.0,163522.0,169796.0,150974.0,176070.0,5.0
+Data Scientist,Zug,Deutschschweiz,Mid,Lead (150K+),2,163009.0,160178.0,163008.0,165839.0,157348.0,168669.0,4.0
+ML Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),7,162970.0,160645.0,165620.0,167099.0,151182.0,168501.0,3.3
+Data Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),24,162841.0,155023.0,162686.0,168277.0,152487.0,176063.0,4.3
+Data Engineer,Lausanne,Romandy,Mid,Lead (150K+),16,162834.0,159817.0,164268.0,167499.0,150526.0,173683.0,3.3
+Data Engineer,Geneva,Romandy,Mid,Lead (150K+),25,162542.0,155735.0,164128.0,168375.0,150259.0,178183.0,3.1
+Data Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),15,162073.0,158720.0,160949.0,164504.0,152291.0,175485.0,3.7
+Software Engineer,Geneva,Romandy,Mid,Lead (150K+),19,161559.0,158879.0,161483.0,165468.0,150825.0,169680.0,4.3
+Full Stack Engineer,Winterthur,Deutschschweiz,Mid,Lead (150K+),1,161509.0,161509.0,161509.0,161509.0,161509.0,161509.0,4.0
+ML Engineer,St. Gallen,Deutschschweiz,Mid,Lead (150K+),1,160900.0,160900.0,160900.0,160900.0,160900.0,160900.0,5.0
+Backend Engineer,Geneva,Romandy,Mid,Lead (150K+),23,160219.0,156342.0,159268.0,164672.0,150215.0,169841.0,2.7
+Software Engineer,Zug,Deutschschweiz,Mid,Lead (150K+),2,159952.0,158598.0,159952.0,161306.0,157245.0,162659.0,3.0
+Backend Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),27,159610.0,154270.0,159234.0,165090.0,150062.0,169071.0,4.2
+Backend Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),45,159566.0,154407.0,159018.0,164777.0,150042.0,171111.0,3.9
+Software Engineer,Winterthur,Deutschschweiz,Mid,Lead (150K+),1,159553.0,159553.0,159553.0,159553.0,159553.0,159553.0,2.0
+Data Engineer,Lucerne,Deutschschweiz,Mid,Lead (150K+),3,159334.0,156547.0,162944.0,163926.0,150150.0,164909.0,4.3
+Analytics Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),2,159218.0,159048.0,159218.0,159387.0,158879.0,159556.0,4.0
+Backend Engineer,Zug,Deutschschweiz,Mid,Lead (150K+),4,158957.0,154700.0,159000.0,163256.0,153216.0,164610.0,2.8
+Software Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),6,158568.0,155990.0,160388.0,161434.0,151954.0,162374.0,5.0
+Backend Engineer,Lausanne,Romandy,Mid,Lead (150K+),21,158412.0,152587.0,158048.0,162486.0,150224.0,168561.0,3.8
+Full Stack Engineer,Geneva,Romandy,Mid,Lead (150K+),18,158385.0,154972.0,157716.0,160224.0,150390.0,169713.0,3.7
+Software Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),24,158061.0,154630.0,157725.0,161598.0,150021.0,167865.0,4.3
+Software Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),39,158040.0,153908.0,157888.0,161925.0,150056.0,168961.0,4.2
+Backend Engineer,Lucerne,Deutschschweiz,Mid,Lead (150K+),4,157722.0,152769.0,157660.0,162612.0,152009.0,163559.0,7.0
+Backend Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),8,157181.0,154138.0,154736.0,159629.0,152742.0,165717.0,4.9
+Full Stack Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),16,157126.0,154721.0,157092.0,159439.0,150391.0,164074.0,4.2
+Full Stack Engineer,Lausanne,Romandy,Mid,Lead (150K+),12,157082.0,155076.0,156744.0,158015.0,152644.0,165005.0,2.1
+Full Stack Engineer,Bern,Deutschschweiz,Mid,Lead (150K+),12,156936.0,153854.0,156930.0,159059.0,151578.0,162934.0,4.8
+Backend Engineer,Winterthur,Deutschschweiz,Mid,Lead (150K+),2,156693.0,155024.0,156692.0,158361.0,153355.0,160030.0,8.0
+Software Engineer,Lausanne,Romandy,Mid,Lead (150K+),13,156446.0,153004.0,155303.0,159805.0,150905.0,167459.0,3.2
+Analytics Engineer,Zug,Deutschschweiz,Mid,Lead (150K+),5,156155.0,151798.0,154047.0,161462.0,150365.0,163101.0,3.0
+Analytics Engineer,St. Gallen,Deutschschweiz,Mid,Lead (150K+),2,156081.0,155949.0,156080.0,156212.0,155817.0,156344.0,2.0
+Analytics Engineer,Basel,Deutschschweiz,Mid,Lead (150K+),13,155855.0,152597.0,153670.0,158513.0,152232.0,163499.0,4.5
+Analytics Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),29,155651.0,152274.0,155006.0,159588.0,150085.0,162817.0,4.1
+Full Stack Engineer,Zug,Deutschschweiz,Mid,Lead (150K+),2,155642.0,155406.0,155642.0,155877.0,155170.0,156113.0,3.5
+Full Stack Engineer,Zurich,Deutschschweiz,Mid,Lead (150K+),31,155383.0,151892.0,154680.0,157470.0,150632.0,164668.0,3.6
+Analytics Engineer,Lugano,Ticino,Mid,Lead (150K+),1,154938.0,154938.0,154938.0,154938.0,154938.0,154938.0,4.0
+Analytics Engineer,Geneva,Romandy,Mid,Lead (150K+),16,154676.0,152781.0,153954.0,156474.0,150221.0,161878.0,3.9
+Software Engineer,Lucerne,Deutschschweiz,Mid,Lead (150K+),3,154653.0,150930.0,151135.0,156618.0,150725.0,162100.0,3.0
+Analytics Engineer,Lucerne,Deutschschweiz,Mid,Lead (150K+),1,154542.0,154542.0,154542.0,154542.0,154542.0,154542.0,3.0
+Full Stack Engineer,St. Gallen,Deutschschweiz,Mid,Lead (150K+),1,154485.0,154485.0,154485.0,154485.0,154485.0,154485.0,8.0
+Analytics Engineer,Lausanne,Romandy,Mid,Lead (150K+),6,154180.0,153850.0,154158.0,154938.0,152576.0,155242.0,4.8
+Senior Data Analyst,Geneva,Romandy,Senior,Lead (150K+),1,151528.0,151528.0,151528.0,151528.0,151528.0,151528.0,8.0
+Senior Data Analyst,Basel,Deutschschweiz,Senior,Lead (150K+),2,151527.0,151024.0,151527.0,152030.0,150520.0,152534.0,0.5
+Senior Data Analyst,Zurich,Deutschschweiz,Senior,Lead (150K+),2,151029.0,150908.0,151029.0,151150.0,150788.0,151270.0,5.0
+Full Stack Engineer,Lucerne,Deutschschweiz,Mid,Lead (150K+),1,150197.0,150197.0,150197.0,150197.0,150197.0,150197.0,7.0
+Senior Data Scientist,Zug,Deutschschweiz,Senior,Senior (120K-150K),1,149802.0,149802.0,149802.0,149802.0,149802.0,149802.0,0.0
+Senior Data Scientist,Lausanne,Romandy,Senior,Senior (120K-150K),1,148232.0,148232.0,148232.0,148232.0,148232.0,148232.0,1.0
+Senior Data Scientist,Zurich,Deutschschweiz,Senior,Senior (120K-150K),13,147333.0,146056.0,147187.0,148648.0,144530.0,149679.0,4.7
+Senior Data Scientist,Lucerne,Deutschschweiz,Senior,Senior (120K-150K),2,146912.0,145711.0,146912.0,148113.0,144510.0,149314.0,1.0
+Backend Engineer,Lugano,Ticino,Mid,Senior (120K-150K),2,146627.0,145802.0,146627.0,147452.0,144978.0,148276.0,4.5
+Senior Data Scientist,Bern,Deutschschweiz,Senior,Senior (120K-150K),3,145917.0,145354.0,145422.0,146232.0,145287.0,147041.0,5.3
+Senior Data Scientist,Geneva,Romandy,Senior,Senior (120K-150K),9,145197.0,143713.0,145393.0,146714.0,140118.0,149360.0,4.6
+Senior Data Scientist,Basel,Deutschschweiz,Senior,Senior (120K-150K),9,143658.0,141352.0,143931.0,144885.0,140321.0,147472.0,4.4
+Senior Data Engineer,Basel,Deutschschweiz,Senior,Senior (120K-150K),22,142715.0,139439.0,142786.0,147475.0,131180.0,149517.0,3.5
+Senior Data Engineer,Bern,Deutschschweiz,Senior,Senior (120K-150K),8,142631.0,140545.0,143643.0,145372.0,136204.0,147082.0,3.8
+Senior Data Engineer,Lausanne,Romandy,Senior,Senior (120K-150K),7,142350.0,141032.0,142683.0,145842.0,130400.0,149619.0,2.4
+Senior Data Engineer,Zurich,Deutschschweiz,Senior,Senior (120K-150K),31,141792.0,138619.0,141461.0,145946.0,129761.0,149966.0,4.1
+Senior Data Engineer,Winterthur,Deutschschweiz,Senior,Senior (120K-150K),1,141768.0,141768.0,141768.0,141768.0,141768.0,141768.0,5.0
+Software Engineer,Lugano,Ticino,Mid,Senior (120K-150K),1,140614.0,140614.0,140614.0,140614.0,140614.0,140614.0,7.0
+Software Engineer,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),2,140539.0,136943.0,140538.0,144134.0,133348.0,147729.0,5.5
+Full Stack Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),2,140336.0,135928.0,140336.0,144743.0,131520.0,149151.0,1.0
+Data Scientist,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),1,140291.0,140291.0,140291.0,140291.0,140291.0,140291.0,1.0
+Backend Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),24,139730.0,133955.0,140872.0,146613.0,121552.0,149844.0,3.5
+Senior Data Engineer,Geneva,Romandy,Senior,Senior (120K-150K),22,139273.0,134154.0,139780.0,143567.0,127980.0,148257.0,3.6
+Backend Engineer,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),1,138944.0,138944.0,138944.0,138944.0,138944.0,138944.0,4.0
+Software Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),25,138560.0,134504.0,140851.0,146722.0,120551.0,149821.0,3.1
+Data Scientist,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),2,138315.0,137438.0,138315.0,139192.0,136560.0,140070.0,4.5
+Senior Data Analyst,Winterthur,Deutschschweiz,Senior,Senior (120K-150K),3,138041.0,133236.0,135128.0,141389.0,131344.0,147650.0,2.7
+Analytics Engineer,Geneva,Romandy,Mid,Senior (120K-150K),31,137944.0,131012.0,140199.0,144642.0,120396.0,149377.0,4.2
+Data Scientist,Bern,Deutschschweiz,Mid,Senior (120K-150K),10,137768.0,130636.0,136806.0,143275.0,129369.0,149905.0,4.7
+Analytics Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),13,137709.0,131329.0,137112.0,146702.0,125432.0,147918.0,4.8
+Data Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),1,137511.0,137511.0,137511.0,137511.0,137511.0,137511.0,2.0
+Senior Data Engineer,Zug,Deutschschweiz,Senior,Senior (120K-150K),6,137416.0,132906.0,136172.0,140477.0,129175.0,149248.0,3.8
+Software Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),6,136480.0,133412.0,136174.0,143586.0,120178.0,147807.0,5.0
+Full Stack Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),12,136419.0,127555.0,140006.0,143496.0,121335.0,148837.0,4.8
+Data Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),16,136261.0,130243.0,138304.0,143352.0,121951.0,148552.0,3.8
+ML Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),15,136144.0,128205.0,133056.0,145266.0,121256.0,149624.0,3.8
+Data Scientist,Zurich,Deutschschweiz,Mid,Senior (120K-150K),59,135907.0,129070.0,135734.0,142348.0,120213.0,149942.0,3.6
+Software Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),41,135687.0,128745.0,135629.0,143802.0,120089.0,148779.0,3.9
+Software Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),86,135612.0,127501.0,134950.0,144633.0,120039.0,149838.0,3.9
+Data Scientist,Lausanne,Romandy,Mid,Senior (120K-150K),16,135567.0,128682.0,134374.0,144681.0,121126.0,149623.0,4.1
+Data Scientist,Basel,Deutschschweiz,Mid,Senior (120K-150K),31,135539.0,127724.0,134970.0,144211.0,121616.0,147535.0,3.8
+Senior Data Analyst,Lucerne,Deutschschweiz,Senior,Senior (120K-150K),3,135531.0,132908.0,139929.0,140354.0,125886.0,140778.0,4.0
+Analytics Engineer,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),5,135334.0,130909.0,135700.0,140080.0,129779.0,140202.0,2.8
+Full Stack Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),40,135297.0,126610.0,134688.0,145203.0,122060.0,149883.0,4.2
+Backend Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),69,135174.0,126920.0,134325.0,144362.0,120488.0,149955.0,3.4
+Analytics Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),88,135071.0,126405.0,136510.0,142122.0,120044.0,149801.0,3.9
+ML Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),68,135030.0,128180.0,136080.0,141880.0,120195.0,149991.0,4.1
+Data Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),72,135000.0,126220.0,135478.0,142012.0,120587.0,149949.0,4.1
+Backend Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),42,134973.0,129881.0,135433.0,140468.0,121979.0,149178.0,4.0
+Analytics Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),33,134918.0,125899.0,135368.0,142857.0,120287.0,148309.0,4.9
+Backend Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),6,134913.0,127963.0,134324.0,142342.0,120248.0,149725.0,2.2
+Software Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),13,134801.0,123621.0,134905.0,144409.0,121796.0,149198.0,4.7
+Software Engineer,Geneva,Romandy,Mid,Senior (120K-150K),31,134780.0,128274.0,133414.0,144068.0,122820.0,148608.0,4.2
+Data Scientist,Zug,Deutschschweiz,Mid,Senior (120K-150K),2,134767.0,131630.0,134767.0,137904.0,128493.0,141041.0,2.5
+Data Scientist,Lugano,Ticino,Mid,Senior (120K-150K),1,134764.0,134764.0,134764.0,134764.0,134764.0,134764.0,8.0
+Senior Data Analyst,Lausanne,Romandy,Senior,Senior (120K-150K),32,134704.0,128443.0,135372.0,140638.0,120666.0,149152.0,3.0
+Full Stack Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),25,134426.0,127046.0,135585.0,140134.0,120052.0,148841.0,3.5
+Full Stack Engineer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),67,134098.0,125260.0,134087.0,142047.0,120025.0,149831.0,4.1
+Full Stack Engineer,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),3,134088.0,130544.0,139331.0,140254.0,121756.0,141177.0,1.0
+Full Stack Engineer,Geneva,Romandy,Mid,Senior (120K-150K),27,134051.0,126512.0,132842.0,142630.0,120063.0,148975.0,3.6
+Data Engineer,Geneva,Romandy,Mid,Senior (120K-150K),24,133957.0,124823.0,134376.0,139455.0,120531.0,149723.0,4.6
+Full Stack Engineer,Lugano,Ticino,Mid,Senior (120K-150K),1,133778.0,133778.0,133778.0,133778.0,133778.0,133778.0,7.0
+Senior Data Analyst,Basel,Deutschschweiz,Senior,Senior (120K-150K),64,133684.0,125168.0,134184.0,141370.0,120244.0,149846.0,3.8
+Analytics Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),25,133508.0,123675.0,133241.0,141082.0,120915.0,149589.0,3.8
+Analytics Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),3,133472.0,132527.0,133771.0,134566.0,131283.0,135361.0,5.7
+Data Scientist,Geneva,Romandy,Mid,Senior (120K-150K),24,133460.0,128539.0,133393.0,137236.0,120527.0,149462.0,3.1
+Data Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),4,133417.0,131963.0,133518.0,134972.0,130162.0,136471.0,5.5
+ML Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),43,133417.0,129434.0,133743.0,137830.0,120249.0,149515.0,4.0
+Senior Data Analyst,St. Gallen,Deutschschweiz,Senior,Senior (120K-150K),1,133393.0,133393.0,133393.0,133393.0,133393.0,133393.0,5.0
+Data Engineer,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),1,133365.0,133365.0,133365.0,133365.0,133365.0,133365.0,2.0
+Senior Data Analyst,Geneva,Romandy,Senior,Senior (120K-150K),50,133129.0,127016.0,133159.0,139101.0,120034.0,149325.0,3.9
+Data Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),18,133121.0,126678.0,133262.0,138266.0,122169.0,145020.0,5.0
+Full Stack Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),4,133085.0,130174.0,135920.0,138830.0,120567.0,139932.0,4.5
+Data Engineer,Basel,Deutschschweiz,Mid,Senior (120K-150K),32,133074.0,126440.0,133852.0,139694.0,120350.0,147927.0,4.5
+Senior Data Analyst,Bern,Deutschschweiz,Senior,Senior (120K-150K),29,132954.0,124294.0,136066.0,141592.0,120157.0,148538.0,3.4
+Backend Engineer,Geneva,Romandy,Mid,Senior (120K-150K),26,132611.0,125629.0,132819.0,137596.0,120478.0,147843.0,4.3
+Backend Engineer,Bern,Deutschschweiz,Mid,Senior (120K-150K),18,132542.0,124321.0,133423.0,138590.0,121064.0,147586.0,3.8
+Senior Data Analyst,Zurich,Deutschschweiz,Senior,Senior (120K-150K),106,132471.0,126322.0,132151.0,138438.0,120283.0,149112.0,4.4
+ML Engineer,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),2,132428.0,127134.0,132428.0,137721.0,121841.0,143014.0,3.0
+Full Stack Engineer,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),1,132387.0,132387.0,132387.0,132387.0,132387.0,132387.0,5.0
+ML Engineer,Lausanne,Romandy,Mid,Senior (120K-150K),8,131613.0,123433.0,130580.0,137436.0,121178.0,147942.0,5.3
+Software Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),3,131385.0,124546.0,126919.0,135990.0,122173.0,145062.0,3.3
+ML Engineer,Geneva,Romandy,Mid,Senior (120K-150K),19,131294.0,123145.0,130657.0,133692.0,120635.0,149411.0,4.2
+Backend Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),3,131113.0,124974.0,125360.0,134376.0,124587.0,143393.0,2.7
+ML Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),5,130530.0,125686.0,129828.0,134465.0,122836.0,139836.0,3.4
+BI Developer,Lausanne,Romandy,Mid,Senior (120K-150K),17,129957.0,126710.0,131714.0,134047.0,122154.0,135945.0,4.1
+Data Analyst,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),2,129269.0,128366.0,129269.0,130172.0,127464.0,131074.0,4.5
+Analytics Engineer,Zug,Deutschschweiz,Mid,Senior (120K-150K),5,128987.0,124362.0,125843.0,128978.0,122456.0,143298.0,3.0
+BI Developer,Bern,Deutschschweiz,Mid,Senior (120K-150K),7,128758.0,125343.0,126321.0,131612.0,123172.0,137902.0,5.6
+BI Developer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),2,128740.0,125666.0,128740.0,131814.0,122593.0,134887.0,6.0
+BI Developer,Geneva,Romandy,Mid,Senior (120K-150K),25,128527.0,123718.0,125762.0,133121.0,121622.0,138403.0,4.4
+Senior Data Analyst,Zug,Deutschschweiz,Senior,Senior (120K-150K),6,128395.0,122608.0,126948.0,132248.0,121633.0,139664.0,5.2
+BI Developer,Zurich,Deutschschweiz,Mid,Senior (120K-150K),64,128139.0,125312.0,128245.0,130806.0,120029.0,136250.0,3.8
+ML Engineer,Winterthur,Deutschschweiz,Mid,Senior (120K-150K),2,127169.0,124134.0,127168.0,130203.0,121100.0,133237.0,6.0
+Data Analyst,Zug,Deutschschweiz,Mid,Senior (120K-150K),1,126873.0,126873.0,126873.0,126873.0,126873.0,126873.0,2.0
+ML Engineer,Lucerne,Deutschschweiz,Mid,Senior (120K-150K),4,125991.0,123087.0,124144.0,127048.0,121099.0,134574.0,3.8
+BI Developer,Basel,Deutschschweiz,Mid,Senior (120K-150K),22,125970.0,122176.0,125164.0,128448.0,120110.0,138726.0,3.9
+Data Analyst,Geneva,Romandy,Mid,Senior (120K-150K),20,125711.0,123222.0,125320.0,127479.0,121092.0,134626.0,4.3
+Senior Data Analyst,Lugano,Ticino,Senior,Senior (120K-150K),1,125656.0,125656.0,125656.0,125656.0,125656.0,125656.0,1.0
+BI Developer,Zug,Deutschschweiz,Mid,Senior (120K-150K),5,125548.0,122519.0,125775.0,126022.0,122201.0,131223.0,3.6
+Data Analyst,Lausanne,Romandy,Mid,Senior (120K-150K),8,125220.0,122601.0,123834.0,126261.0,122123.0,131250.0,4.6
+Software Engineer,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),1,124747.0,124747.0,124747.0,124747.0,124747.0,124747.0,1.0
+Data Analyst,Basel,Deutschschweiz,Mid,Senior (120K-150K),24,124161.0,121506.0,123198.0,126512.0,120160.0,131095.0,3.7
+Data Analyst,Zurich,Deutschschweiz,Mid,Senior (120K-150K),32,123954.0,121392.0,123864.0,125979.0,120012.0,130320.0,4.1
+Data Engineer,St. Gallen,Deutschschweiz,Mid,Senior (120K-150K),1,123439.0,123439.0,123439.0,123439.0,123439.0,123439.0,1.0
+Data Analyst,Bern,Deutschschweiz,Mid,Senior (120K-150K),6,122964.0,121676.0,122533.0,123281.0,121184.0,126615.0,2.5
+Data Engineer,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,119963.0,119963.0,119963.0,119963.0,119963.0,119963.0,8.0
+ML Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),1,119945.0,119945.0,119945.0,119945.0,119945.0,119945.0,0.0
+Senior Data Analyst,Lucerne,Deutschschweiz,Senior,Mid (90K-120K),1,119032.0,119032.0,119032.0,119032.0,119032.0,119032.0,8.0
+Data Analyst,Zug,Deutschschweiz,Mid,Mid (90K-120K),2,116344.0,115850.0,116344.0,116838.0,115355.0,117333.0,5.0
+Backend Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),4,116028.0,113977.0,116204.0,118256.0,112221.0,119482.0,4.0
+BI Developer,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,115728.0,115728.0,115728.0,115728.0,115728.0,115728.0,7.0
+Senior Data Analyst,Zug,Deutschschweiz,Senior,Mid (90K-120K),2,115163.0,113858.0,115162.0,116467.0,112554.0,117771.0,0.0
+Senior Data Analyst,Bern,Deutschschweiz,Senior,Mid (90K-120K),9,114920.0,112857.0,113632.0,117501.0,110955.0,119310.0,4.6
+ML Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),24,114914.0,112516.0,115749.0,118018.0,107628.0,119956.0,4.4
+Senior Data Analyst,St. Gallen,Deutschschweiz,Senior,Mid (90K-120K),1,114489.0,114489.0,114489.0,114489.0,114489.0,114489.0,0.0
+Software Engineer,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),2,114234.0,114069.0,114234.0,114398.0,113905.0,114562.0,4.0
+ML Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),6,113817.0,110013.0,114822.0,117917.0,106926.0,118975.0,4.0
+ML Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),16,113805.0,110874.0,115100.0,117642.0,103487.0,119609.0,3.3
+Senior Data Analyst,Basel,Deutschschweiz,Senior,Mid (90K-120K),19,113761.0,111535.0,114012.0,116198.0,106196.0,119991.0,4.1
+Senior Data Analyst,Winterthur,Deutschschweiz,Senior,Mid (90K-120K),2,113729.0,110794.0,113728.0,116663.0,107860.0,119597.0,1.0
+Data Scientist,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),1,113727.0,113727.0,113727.0,113727.0,113727.0,113727.0,0.0
+Senior Data Analyst,Lausanne,Romandy,Senior,Mid (90K-120K),22,113553.0,111244.0,113572.0,115561.0,106340.0,119901.0,4.0
+Senior Data Analyst,Zurich,Deutschschweiz,Senior,Mid (90K-120K),33,113324.0,110174.0,114068.0,116246.0,105869.0,119968.0,3.9
+Data Scientist,Zurich,Deutschschweiz,Mid,Mid (90K-120K),36,113091.0,109410.0,114720.0,117871.0,100883.0,119490.0,3.9
+Data Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),11,113023.0,107698.0,114991.0,118059.0,103905.0,119960.0,5.6
+ML Engineer,Geneva,Romandy,Mid,Mid (90K-120K),10,112764.0,110946.0,112203.0,116226.0,104572.0,118277.0,3.2
+BI Developer,Winterthur,Deutschschweiz,Mid,Mid (90K-120K),1,112729.0,112729.0,112729.0,112729.0,112729.0,112729.0,0.0
+Senior Data Analyst,Geneva,Romandy,Senior,Mid (90K-120K),22,112595.0,107837.0,111595.0,117850.0,103808.0,119998.0,3.7
+Backend Engineer,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),1,111931.0,111931.0,111931.0,111931.0,111931.0,111931.0,7.0
+Data Scientist,Lausanne,Romandy,Mid,Mid (90K-120K),12,111688.0,108911.0,112026.0,114899.0,104842.0,117246.0,5.3
+Data Scientist,Geneva,Romandy,Mid,Mid (90K-120K),9,111610.0,109846.0,111169.0,113992.0,106050.0,117011.0,3.9
+Software Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),11,111564.0,108190.0,112599.0,116380.0,98137.0,119185.0,3.8
+Data Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),45,111423.0,108964.0,112057.0,116032.0,97322.0,118747.0,3.9
+Backend Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),42,111387.0,108363.0,112237.0,116033.0,97760.0,119728.0,4.0
+Data Scientist,Basel,Deutschschweiz,Mid,Mid (90K-120K),24,111312.0,108217.0,111815.0,114254.0,102667.0,119653.0,4.8
+Backend Engineer,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,111189.0,111189.0,111189.0,111189.0,111189.0,111189.0,7.0
+Analytics Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),21,111110.0,107650.0,111484.0,115991.0,99386.0,119857.0,4.0
+Full Stack Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),14,110812.0,106426.0,112460.0,114844.0,99457.0,119249.0,4.2
+Data Engineer,Geneva,Romandy,Mid,Mid (90K-120K),14,110648.0,104022.0,112138.0,116773.0,99844.0,119565.0,4.3
+Data Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),27,110507.0,107436.0,111029.0,114734.0,97115.0,118753.0,4.1
+Backend Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),14,110257.0,107018.0,109751.0,113172.0,102438.0,119749.0,3.6
+Backend Engineer,Geneva,Romandy,Mid,Mid (90K-120K),16,110105.0,105977.0,110006.0,115514.0,98011.0,118249.0,3.7
+Analytics Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),53,109839.0,102553.0,111029.0,115651.0,96202.0,119884.0,4.6
+Full Stack Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),2,109671.0,105642.0,109671.0,113700.0,101612.0,117730.0,4.5
+ML Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),5,109668.0,108574.0,110143.0,110286.0,103939.0,115400.0,3.6
+Analytics Engineer,Geneva,Romandy,Mid,Mid (90K-120K),24,109351.0,103738.0,109021.0,118014.0,94989.0,119190.0,4.2
+Data Scientist,Zug,Deutschschweiz,Mid,Mid (90K-120K),1,109287.0,109287.0,109287.0,109287.0,109287.0,109287.0,7.0
+Analytics Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),37,109085.0,104276.0,108647.0,114998.0,98100.0,119091.0,4.4
+BI Developer,Lugano,Ticino,Mid,Mid (90K-120K),2,109000.0,108174.0,109000.0,109825.0,107348.0,110651.0,7.0
+Full Stack Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),23,108789.0,104024.0,108362.0,115660.0,94574.0,119387.0,3.7
+Software Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),46,108448.0,102119.0,108928.0,114805.0,94451.0,119145.0,3.8
+Software Engineer,Geneva,Romandy,Mid,Mid (90K-120K),22,108255.0,102616.0,109384.0,113304.0,96284.0,119494.0,3.4
+Full Stack Engineer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),50,108104.0,102608.0,108020.0,113630.0,93718.0,119118.0,4.0
+Backend Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),19,108094.0,103121.0,107552.0,113672.0,97836.0,117473.0,3.5
+Backend Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),8,107903.0,106498.0,107474.0,111480.0,99391.0,113229.0,5.9
+Software Engineer,Basel,Deutschschweiz,Mid,Mid (90K-120K),31,107767.0,102005.0,105869.0,114982.0,95727.0,118578.0,4.1
+Analytics Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),15,107400.0,104548.0,106507.0,110861.0,99502.0,116773.0,3.1
+Data Analyst,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,106941.0,106941.0,106941.0,106941.0,106941.0,106941.0,4.0
+Full Stack Engineer,Geneva,Romandy,Mid,Mid (90K-120K),26,106804.0,103021.0,105353.0,112029.0,95588.0,119338.0,3.7
+Data Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),2,106774.0,104119.0,106774.0,109428.0,101465.0,112082.0,4.0
+Software Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),11,106662.0,101997.0,104984.0,111430.0,94599.0,119716.0,2.5
+Data Engineer,Lugano,Ticino,Mid,Mid (90K-120K),1,106552.0,106552.0,106552.0,106552.0,106552.0,106552.0,3.0
+BI Developer,Zurich,Deutschschweiz,Mid,Mid (90K-120K),106,106428.0,99405.0,106672.0,113598.0,90285.0,119972.0,3.7
+BI Developer,Zug,Deutschschweiz,Mid,Mid (90K-120K),6,106404.0,101947.0,103105.0,112708.0,95909.0,118836.0,3.0
+Full Stack Engineer,Lausanne,Romandy,Mid,Mid (90K-120K),12,106323.0,103546.0,105377.0,108025.0,100929.0,113493.0,3.6
+BI Developer,Lausanne,Romandy,Mid,Mid (90K-120K),41,106096.0,99403.0,106521.0,112027.0,92517.0,119378.0,3.9
+Data Analyst,Geneva,Romandy,Mid,Mid (90K-120K),48,106066.0,101089.0,106772.0,113417.0,90083.0,119770.0,3.6
+BI Developer,Geneva,Romandy,Mid,Mid (90K-120K),63,106017.0,98880.0,104928.0,114032.0,90860.0,119832.0,3.9
+BI Developer,Basel,Deutschschweiz,Mid,Mid (90K-120K),63,105849.0,100580.0,106061.0,112282.0,90017.0,118742.0,4.1
+Data Analyst,Lausanne,Romandy,Mid,Mid (90K-120K),41,105199.0,98882.0,106213.0,110384.0,92286.0,119996.0,3.5
+Data Scientist,Bern,Deutschschweiz,Mid,Mid (90K-120K),3,105051.0,102613.0,103366.0,106646.0,101860.0,109927.0,3.7
+Analytics Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),8,105045.0,101245.0,107250.0,108150.0,95254.0,114569.0,4.4
+BI Developer,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),3,104935.0,100604.0,101385.0,107491.0,99824.0,113597.0,2.7
+Data Analyst,Bern,Deutschschweiz,Mid,Mid (90K-120K),20,104827.0,95247.0,107386.0,113916.0,91131.0,117186.0,3.6
+Data Analyst,Zurich,Deutschschweiz,Mid,Mid (90K-120K),90,104759.0,96809.0,104618.0,112961.0,90136.0,119989.0,4.2
+Data Analyst,Basel,Deutschschweiz,Mid,Mid (90K-120K),62,104356.0,95414.0,103277.0,112417.0,90787.0,119703.0,3.1
+Full Stack Engineer,Winterthur,Deutschschweiz,Mid,Mid (90K-120K),2,104317.0,100892.0,104317.0,107742.0,97467.0,111167.0,1.5
+Data Engineer,Bern,Deutschschweiz,Mid,Mid (90K-120K),8,104221.0,100043.0,103442.0,108801.0,96405.0,111902.0,3.5
+Data Analyst,Winterthur,Deutschschweiz,Mid,Mid (90K-120K),3,103914.0,96137.0,96510.0,107988.0,95764.0,119467.0,4.0
+BI Developer,Bern,Deutschschweiz,Mid,Mid (90K-120K),22,103598.0,95050.0,103556.0,111889.0,90433.0,118366.0,4.1
+Software Engineer,Zug,Deutschschweiz,Mid,Mid (90K-120K),2,103347.0,101252.0,103346.0,105441.0,99158.0,107535.0,6.0
+Analytics Engineer,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),1,102971.0,102971.0,102971.0,102971.0,102971.0,102971.0,0.0
+Backend Engineer,Winterthur,Deutschschweiz,Mid,Mid (90K-120K),1,102968.0,102968.0,102968.0,102968.0,102968.0,102968.0,0.0
+Software Engineer,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,102701.0,102701.0,102701.0,102701.0,102701.0,102701.0,2.0
+Data Scientist,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,101416.0,101416.0,101416.0,101416.0,101416.0,101416.0,6.0
+Data Analyst,Lugano,Ticino,Mid,Mid (90K-120K),2,100887.0,95630.0,100887.0,106144.0,90373.0,111401.0,5.5
+Full Stack Engineer,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),1,99869.0,99869.0,99869.0,99869.0,99869.0,99869.0,5.0
+Data Analyst,Lucerne,Deutschschweiz,Mid,Mid (90K-120K),2,99177.0,95918.0,99176.0,102435.0,92659.0,105694.0,5.0
+Analytics Engineer,St. Gallen,Deutschschweiz,Mid,Mid (90K-120K),1,94856.0,94856.0,94856.0,94856.0,94856.0,94856.0,7.0
+Data Analyst,Winterthur,Deutschschweiz,Mid,Junior (< 90K),1,89817.0,89817.0,89817.0,89817.0,89817.0,89817.0,0.0
+Data Analyst,Lucerne,Deutschschweiz,Mid,Junior (< 90K),1,88730.0,88730.0,88730.0,88730.0,88730.0,88730.0,2.0
+BI Developer,Zurich,Deutschschweiz,Mid,Junior (< 90K),6,87945.0,87326.0,87850.0,89390.0,84966.0,89952.0,2.7
+BI Developer,Geneva,Romandy,Mid,Junior (< 90K),2,87837.0,87786.0,87837.0,87888.0,87736.0,87938.0,2.5
+BI Developer,Lausanne,Romandy,Mid,Junior (< 90K),3,87614.0,86756.0,86884.0,88108.0,86627.0,89332.0,3.7
+BI Developer,Basel,Deutschschweiz,Mid,Junior (< 90K),6,87580.0,86718.0,87704.0,88408.0,86061.0,88976.0,6.0
+Data Analyst,Zurich,Deutschschweiz,Mid,Junior (< 90K),11,87186.0,85860.0,87053.0,88576.0,82994.0,89922.0,3.9
+BI Developer,Bern,Deutschschweiz,Mid,Junior (< 90K),1,87167.0,87167.0,87167.0,87167.0,87167.0,87167.0,0.0
+Data Analyst,Geneva,Romandy,Mid,Junior (< 90K),7,86784.0,84494.0,87462.0,88576.0,84120.0,89770.0,5.9
+Data Analyst,Basel,Deutschschweiz,Mid,Junior (< 90K),11,86778.0,85052.0,87579.0,89359.0,80873.0,89821.0,4.0
+Data Analyst,Bern,Deutschschweiz,Mid,Junior (< 90K),1,86277.0,86277.0,86277.0,86277.0,86277.0,86277.0,4.0
+Data Analyst,Lausanne,Romandy,Mid,Junior (< 90K),3,86188.0,84446.0,84715.0,87194.0,84176.0,89674.0,4.3
+BI Developer,St. Gallen,Deutschschweiz,Mid,Junior (< 90K),1,85423.0,85423.0,85423.0,85423.0,85423.0,85423.0,3.0

@@ -5,7 +5,7 @@ from airflow.operators.bash import BashOperator
 PROJECT_DIR = "/Users/eldorado/Documents/swiss-job-intelligence"
 DBT_DIR = f"{PROJECT_DIR}/dbt_project/swiss_jobs_dbt"
 PYTHON = f"{PROJECT_DIR}/venv/bin/python"
-DBT = f"{PROJECT_DIR}/venv/bin/dbt"
+DBT = f"{PROJECT_DIR}/venv_dbt/bin/dbt"
 
 default_args = {
     'owner': 'victoria',
@@ -22,7 +22,7 @@ with DAG(
     schedule_interval='0 6 * * *',
     start_date=datetime(2026, 1, 1),
     catchup=False,
-    tags=['swiss_jobs', 'data_engineering'],
+    tags=['swiss_jobs'],
 ) as dag:
 
     ingest_task = BashOperator(
