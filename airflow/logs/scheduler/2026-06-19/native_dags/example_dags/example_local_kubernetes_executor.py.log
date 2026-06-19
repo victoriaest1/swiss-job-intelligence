@@ -1,0 +1,44 @@
+[2026-06-19T07:22:30.266+0200] {processor.py:161} INFO - Started process (PID=93251) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:22:30.267+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-06-19T07:22:30.267+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:30.267+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:22:30.282+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:30.282+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-06-19T07:22:30.283+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:30.283+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-06-19T07:22:30.283+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:22:30.338+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2026-06-19T07:24:02.467+0200] {processor.py:161} INFO - Started process (PID=93352) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:24:02.469+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-06-19T07:24:02.469+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:02.469+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:24:02.483+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:02.483+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-06-19T07:24:02.483+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:02.483+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-06-19T07:24:02.483+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:24:02.537+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2026-06-19T07:26:08.792+0200] {processor.py:161} INFO - Started process (PID=93620) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:26:08.792+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-06-19T07:26:08.793+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:08.793+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:26:08.806+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:08.806+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-06-19T07:26:08.806+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:08.806+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-06-19T07:26:08.806+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:26:08.864+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-06-19T07:31:45.271+0200] {processor.py:161} INFO - Started process (PID=95128) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:31:45.272+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-06-19T07:31:45.272+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:31:45.272+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:31:45.291+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:31:45.290+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-06-19T07:31:45.291+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:31:45.291+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-06-19T07:31:45.291+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-06-19T07:31:45.360+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.090 seconds

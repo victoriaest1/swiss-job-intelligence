@@ -1,0 +1,117 @@
+[2026-06-19T07:22:50.994+0200] {processor.py:161} INFO - Started process (PID=93271) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:22:50.995+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2026-06-19T07:22:50.995+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:50.995+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:22:51.017+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:51.014+0200] {dagbag.py:348} ERROR - Failed to import: /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-06-19T07:22:51.017+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:22:51.081+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.088 seconds
+[2026-06-19T07:24:55.917+0200] {processor.py:161} INFO - Started process (PID=93425) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:24:55.918+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2026-06-19T07:24:55.918+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:55.918+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:24:55.939+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:55.936+0200] {dagbag.py:348} ERROR - Failed to import: /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-06-19T07:24:55.939+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:24:55.996+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.079 seconds
+[2026-06-19T07:27:16.420+0200] {processor.py:161} INFO - Started process (PID=93772) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:27:16.422+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2026-06-19T07:27:16.422+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:16.422+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:27:16.441+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:16.438+0200] {dagbag.py:348} ERROR - Failed to import: /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-06-19T07:27:16.442+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2026-06-19T07:27:16.500+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.080 seconds

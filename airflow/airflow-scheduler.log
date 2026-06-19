@@ -1,0 +1,146 @@
+2026-06-18 17:10:47,915 INFO - Task context logging is enabled
+2026-06-18 17:10:47,917 INFO - Loaded executor: SequentialExecutor
+2026-06-18 17:10:48,027 INFO - Starting the scheduler
+2026-06-18 17:10:48,028 INFO - Processing each file at most -1 times
+2026-06-18 17:10:48,036 INFO - Launched DagFileProcessorManager with pid: 33260
+2026-06-18 17:10:48,041 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:13:51,100 INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+2026-06-18 17:13:51,119 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.ingest_data scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:13:51,120 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:13:51,120 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.ingest_data scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:13:51,122 WARNING - cannot record scheduled_duration for task ingest_data because previous state change time has not been saved
+2026-06-18 17:13:51,122 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='ingest_data', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2026-06-18 17:13:51,123 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'ingest_data', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:13:51,124 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'ingest_data', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:13:54,058 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='ingest_data', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=1, map_index=-1)
+2026-06-18 17:13:54,063 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=ingest_data, run_id=scheduled__2026-06-17T06:00:00+00:00, map_index=-1, run_start_date=2026-06-18 15:13:52.313738+00:00, run_end_date=2026-06-18 15:13:53.832290+00:00, run_duration=1.518552, state=success, executor_state=success, try_number=1, max_tries=1, job_id=2, pool=default_pool, queue=default, priority_weight=5, operator=BashOperator, queued_dttm=2026-06-18 15:13:51.121451+00:00, queued_by_job_id=1, pid=33645
+2026-06-18 17:13:54,976 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:13:54,976 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:13:54,977 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:13:54,978 WARNING - cannot record scheduled_duration for task dbt_run because previous state change time has not been saved
+2026-06-18 17:13:54,978 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:13:54,979 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:13:54,979 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:13:56,690 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=1, map_index=-1)
+2026-06-18 17:13:56,694 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=scheduled__2026-06-17T06:00:00+00:00, map_index=-1, run_start_date=2026-06-18 15:13:55.970519+00:00, run_end_date=2026-06-18 15:13:56.420551+00:00, run_duration=0.450032, state=up_for_retry, executor_state=success, try_number=1, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:13:54.977727+00:00, queued_by_job_id=1, pid=33660
+2026-06-18 17:14:41,413 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.ingest_data manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:14:41,414 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:14:41,414 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.ingest_data manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:14:41,415 WARNING - cannot record scheduled_duration for task ingest_data because previous state change time has not been saved
+2026-06-18 17:14:41,415 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='ingest_data', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2026-06-18 17:14:41,416 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'ingest_data', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:14:41,417 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'ingest_data', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:14:44,174 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='ingest_data', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=1, map_index=-1)
+2026-06-18 17:14:44,178 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=ingest_data, run_id=manual__2026-06-18T15:14:40.029406+00:00, map_index=-1, run_start_date=2026-06-18 15:14:42.577489+00:00, run_end_date=2026-06-18 15:14:43.897437+00:00, run_duration=1.319948, state=success, executor_state=success, try_number=1, max_tries=1, job_id=4, pool=default_pool, queue=default, priority_weight=5, operator=BashOperator, queued_dttm=2026-06-18 15:14:41.415034+00:00, queued_by_job_id=1, pid=33815
+2026-06-18 17:14:45,138 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:14:45,138 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:14:45,139 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:14:45,140 WARNING - cannot record scheduled_duration for task dbt_run because previous state change time has not been saved
+2026-06-18 17:14:45,140 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:14:45,140 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:14:45,141 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:14:46,610 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=1, map_index=-1)
+2026-06-18 17:14:46,613 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=manual__2026-06-18T15:14:40.029406+00:00, map_index=-1, run_start_date=2026-06-18 15:14:46.150559+00:00, run_end_date=2026-06-18 15:14:46.346467+00:00, run_duration=0.195908, state=up_for_retry, executor_state=success, try_number=1, max_tries=1, job_id=5, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:14:45.139671+00:00, queued_by_job_id=1, pid=33828
+2026-06-18 17:15:48,961 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:18:57,460 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:18:57,462 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:18:57,462 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:18:57,463 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=2, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:18:57,464 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:18:57,464 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:18:59,074 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=2, map_index=-1)
+2026-06-18 17:18:59,077 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=scheduled__2026-06-17T06:00:00+00:00, map_index=-1, run_start_date=2026-06-18 15:18:58.621965+00:00, run_end_date=2026-06-18 15:18:58.843144+00:00, run_duration=0.221179, state=failed, executor_state=success, try_number=2, max_tries=1, job_id=6, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:18:57.463275+00:00, queued_by_job_id=1, pid=34682
+2026-06-18 17:19:03,499 ERROR - Marking run <DagRun swiss_jobs_pipeline @ 2026-06-17 06:00:00+00:00: scheduled__2026-06-17T06:00:00+00:00, state:running, queued_at: 2026-06-18 15:13:51.096205+00:00. externally triggered: False> failed
+2026-06-18 17:19:03,504 INFO - DagRun Finished: dag_id=swiss_jobs_pipeline, execution_date=2026-06-17 06:00:00+00:00, run_id=scheduled__2026-06-17T06:00:00+00:00, run_start_date=2026-06-18 15:13:51.104667+00:00, run_end_date=2026-06-18 15:19:03.504123+00:00, run_duration=312.399456, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2026-06-17 06:00:00+00:00, data_interval_end=2026-06-18 06:00:00+00:00, dag_hash=0b33b0f1cf461a1524ef4364a456c3b0
+2026-06-18 17:19:03,506 INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+2026-06-18 17:19:47,234 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:19:47,235 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:19:47,236 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [scheduled]>
+2026-06-18 17:19:47,237 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=2, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:19:47,237 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:19:47,238 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'manual__2026-06-18T15:14:40.029406+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:19:49,126 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='manual__2026-06-18T15:14:40.029406+00:00', try_number=2, map_index=-1)
+2026-06-18 17:19:49,130 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=manual__2026-06-18T15:14:40.029406+00:00, map_index=-1, run_start_date=2026-06-18 15:19:48.500957+00:00, run_end_date=2026-06-18 15:19:48.803063+00:00, run_duration=0.302106, state=failed, executor_state=success, try_number=2, max_tries=1, job_id=7, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:19:47.236624+00:00, queued_by_job_id=1, pid=34793
+2026-06-18 17:19:54,004 ERROR - Marking run <DagRun swiss_jobs_pipeline @ 2026-06-18 15:14:40.029406+00:00: manual__2026-06-18T15:14:40.029406+00:00, state:running, queued_at: 2026-06-18 15:14:40.043667+00:00. externally triggered: True> failed
+2026-06-18 17:19:54,004 INFO - DagRun Finished: dag_id=swiss_jobs_pipeline, execution_date=2026-06-18 15:14:40.029406+00:00, run_id=manual__2026-06-18T15:14:40.029406+00:00, run_start_date=2026-06-18 15:14:41.402229+00:00, run_end_date=2026-06-18 15:19:54.004719+00:00, run_duration=312.60249, state=failed, external_trigger=True, run_type=manual, data_interval_start=2026-06-17 06:00:00+00:00, data_interval_end=2026-06-18 06:00:00+00:00, dag_hash=0b33b0f1cf461a1524ef4364a456c3b0
+2026-06-18 17:20:49,976 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:25:50,880 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:30:50,995 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:31:13,731 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:31:13,732 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:31:13,732 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:31:13,733 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=3, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:31:13,734 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:31:13,734 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:31:18,046 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=3, map_index=-1)
+2026-06-18 17:31:18,052 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=scheduled__2026-06-17T06:00:00+00:00, map_index=-1, run_start_date=2026-06-18 15:31:15.039377+00:00, run_end_date=2026-06-18 15:31:17.797323+00:00, run_duration=2.757946, state=up_for_retry, executor_state=success, try_number=3, max_tries=3, job_id=8, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:31:13.733246+00:00, queued_by_job_id=1, pid=40931
+2026-06-18 17:35:51,865 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:36:18,745 INFO - 1 tasks up for execution:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:36:18,746 INFO - DAG swiss_jobs_pipeline has 0/16 running and queued tasks
+2026-06-18 17:36:18,747 INFO - Setting the following tasks to queued state:
+	<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [scheduled]>
+2026-06-18 17:36:18,748 INFO - Sending TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=4, map_index=-1) to executor with priority 4 and queue default
+2026-06-18 17:36:18,748 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:36:18,749 INFO - Executing command: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py']
+2026-06-18 17:36:22,921 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='swiss_jobs_pipeline', task_id='dbt_run', run_id='scheduled__2026-06-17T06:00:00+00:00', try_number=4, map_index=-1)
+2026-06-18 17:36:22,925 INFO - TaskInstance Finished: dag_id=swiss_jobs_pipeline, task_id=dbt_run, run_id=scheduled__2026-06-17T06:00:00+00:00, map_index=-1, run_start_date=2026-06-18 15:36:19.982382+00:00, run_end_date=2026-06-18 15:36:22.624621+00:00, run_duration=2.642239, state=failed, executor_state=success, try_number=4, max_tries=3, job_id=9, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2026-06-18 15:36:18.747548+00:00, queued_by_job_id=1, pid=41283
+2026-06-18 17:36:27,594 ERROR - Marking run <DagRun swiss_jobs_pipeline @ 2026-06-17 06:00:00+00:00: scheduled__2026-06-17T06:00:00+00:00, state:running, queued_at: 2026-06-18 15:31:12.287920+00:00. externally triggered: False> failed
+2026-06-18 17:36:27,594 INFO - DagRun Finished: dag_id=swiss_jobs_pipeline, execution_date=2026-06-17 06:00:00+00:00, run_id=scheduled__2026-06-17T06:00:00+00:00, run_start_date=2026-06-18 15:31:13.722691+00:00, run_end_date=2026-06-18 15:36:27.594791+00:00, run_duration=313.8721, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2026-06-17 06:00:00+00:00, data_interval_end=2026-06-18 06:00:00+00:00, dag_hash=d25880038459d0cddb7b7e925efb64f0
+2026-06-18 17:36:27,596 INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+2026-06-18 17:40:52,195 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:45:53,124 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:50:53,125 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 17:55:53,975 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:00:54,651 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:05:55,562 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:10:56,428 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:15:57,298 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:20:57,750 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:25:58,609 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:30:58,742 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:35:59,320 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:41:00,263 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:46:00,578 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:51:01,489 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 18:56:01,949 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:01:02,066 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:06:02,936 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:11:03,823 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:16:04,557 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:21:05,421 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:26:06,314 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:31:06,562 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:36:07,588 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:41:08,469 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:46:09,231 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:51:10,041 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 19:56:10,683 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 20:01:11,573 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 20:06:11,742 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 20:11:12,579 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 20:16:13,442 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-06-18 20:19:06,635 WARNING - DagFileProcessorManager (PID=33260) exited with exit code 0 - re-launching
+2026-06-18 20:19:06,642 INFO - Launched DagFileProcessorManager with pid: 53513
+2026-06-18 20:19:09,705 INFO - Exiting gracefully upon receiving signal 15
+2026-06-18 20:19:10,718 INFO - Sending 15 to group 53513. PIDs of all processes in the group: [53513]
+2026-06-18 20:19:10,720 INFO - Sending the signal 15 to group 53513
+2026-06-18 20:19:10,982 INFO - Process psutil.Process(pid=53513, status='terminated', exitcode=0, started='20:19:06') (53513) terminated with exit code 0
+2026-06-18 20:19:10,989 INFO - Sending 15 to group 53513. PIDs of all processes in the group: []
+2026-06-18 20:19:10,989 INFO - Sending the signal 15 to group 53513
+2026-06-18 20:19:10,990 INFO - Sending the signal 15 to process 53513 as process group is missing.
+2026-06-18 20:19:10,990 INFO - Exited execute loop

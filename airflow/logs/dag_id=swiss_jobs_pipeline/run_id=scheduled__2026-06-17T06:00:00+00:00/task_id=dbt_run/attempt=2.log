@@ -1,0 +1,65 @@
+[2026-06-18T17:18:58.621+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [queued]>
+[2026-06-18T17:18:58.623+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [queued]>
+[2026-06-18T17:18:58.623+0200] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-06-18T17:18:58.628+0200] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-06-17 06:00:00+00:00
+[2026-06-18T17:18:58.632+0200] {standard_task_runner.py:60} INFO - Started process 34682 to run task
+[2026-06-18T17:18:58.635+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'scheduled__2026-06-17T06:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py', '--cfg-path', '/var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T/tmpxugwr874']
+[2026-06-18T17:18:58.636+0200] {standard_task_runner.py:88} INFO - Job 6: Subtask dbt_run
+[2026-06-18T17:18:58.655+0200] {task_command.py:423} INFO - Running <TaskInstance: swiss_jobs_pipeline.dbt_run scheduled__2026-06-17T06:00:00+00:00 [running]> on host els-imac.local
+[2026-06-18T17:18:58.673+0200] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='victoria' AIRFLOW_CTX_DAG_ID='swiss_jobs_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-17T06:00:00+00:00'
+[2026-06-18T17:18:58.674+0200] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T
+[2026-06-18T17:18:58.675+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/eldorado/Documents/swiss-job-intelligence/dbt_project/swiss_jobs_dbt && source /Users/eldorado/Documents/swiss-job-intelligence/venv/bin/activate && dbt run']
+[2026-06-18T17:18:58.679+0200] {subprocess.py:86} INFO - Output:
+[2026-06-18T17:18:58.819+0200] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-18T17:18:58.819+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/bin/dbt", line 3, in <module>
+[2026-06-18T17:18:58.820+0200] {subprocess.py:93} INFO -     from dbt.cli.main import cli
+[2026-06-18T17:18:58.820+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/cli/__init__.py", line 1, in <module>
+[2026-06-18T17:18:58.820+0200] {subprocess.py:93} INFO -     from .main import cli as dbt_cli  # noqa
+[2026-06-18T17:18:58.820+0200] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-18T17:18:58.820+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/cli/main.py", line 12, in <module>
+[2026-06-18T17:18:58.821+0200] {subprocess.py:93} INFO -     from dbt.adapters.factory import register_adapter
+[2026-06-18T17:18:58.821+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/adapters/factory.py", line 9, in <module>
+[2026-06-18T17:18:58.821+0200] {subprocess.py:93} INFO -     from dbt_common.events.functions import fire_event
+[2026-06-18T17:18:58.821+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/__init__.py", line 2, in <module>
+[2026-06-18T17:18:58.821+0200] {subprocess.py:93} INFO -     from dbt_common.events.event_manager_client import get_event_manager
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/event_manager_client.py", line 5, in <module>
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -     from dbt_common.events.event_manager import IEventManager, EventManager
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/event_manager.py", line 13, in <module>
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -     from dbt_common.events.logger import LoggerConfig, _Logger, _TextLogger, _JsonLogger, LineFormat
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/logger.py", line 14, in <module>
+[2026-06-18T17:18:58.822+0200] {subprocess.py:93} INFO -     from dbt_common.utils.encoding import ForgivingJSONEncoder
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/utils/__init__.py", line 9, in <module>
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -     from dbt_common.utils.dict import (
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/utils/dict.py", line 5, in <module>
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -     from dbt_common.exceptions import DbtConfigError, RecursionError
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/exceptions/__init__.py", line 1, in <module>
+[2026-06-18T17:18:58.823+0200] {subprocess.py:93} INFO -     from dbt_common.exceptions.base import *  # noqa
+[2026-06-18T17:18:58.824+0200] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-18T17:18:58.824+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/exceptions/base.py", line 6, in <module>
+[2026-06-18T17:18:58.824+0200] {subprocess.py:93} INFO -     from dbt_common.dataclass_schema import ValidationError
+[2026-06-18T17:18:58.824+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/dataclass_schema.py", line 9, in <module>
+[2026-06-18T17:18:58.824+0200] {subprocess.py:93} INFO -     from mashumaro.config import (
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/mashumaro/__init__.py", line 3, in <module>
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -     from mashumaro.mixins.dict import DataClassDictMixin
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/mashumaro/mixins/dict.py", line 4, in <module>
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -     from mashumaro.core.meta.mixin import (
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/mashumaro/core/meta/mixin.py", line 3, in <module>
+[2026-06-18T17:18:58.825+0200] {subprocess.py:93} INFO -     from mashumaro.core.meta.code.builder import CodeBuilder
+[2026-06-18T17:18:58.826+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/mashumaro/core/meta/code/builder.py", line 64, in <module>
+[2026-06-18T17:18:58.826+0200] {subprocess.py:93} INFO -     from mashumaro.core.meta.types.pack import PackerRegistry
+[2026-06-18T17:18:58.826+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/mashumaro/core/meta/types/pack.py", line 85, in <module>
+[2026-06-18T17:18:58.826+0200] {subprocess.py:93} INFO -     from typing_extensions import evaluate_forward_ref, get_annotations
+[2026-06-18T17:18:58.826+0200] {subprocess.py:93} INFO - ImportError: cannot import name 'evaluate_forward_ref' from 'typing_extensions' (/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/typing_extensions.py)
+[2026-06-18T17:18:58.838+0200] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-18T17:18:58.841+0200] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-18T17:18:58.843+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=swiss_jobs_pipeline, task_id=dbt_run, execution_date=20260617T060000, start_date=20260618T151858, end_date=20260618T151858
+[2026-06-18T17:18:58.848+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 34682)
+[2026-06-18T17:18:58.853+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-06-18T17:18:58.860+0200] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

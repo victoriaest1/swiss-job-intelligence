@@ -1,0 +1,77 @@
+[0m11:31:31.857484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bcc1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bcc550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109c6fc10>]}
+
+
+============================== 11:31:31.860671 | b4e6d5f8-4758-4213-9291-b356b9405d5f ==============================
+[0m11:31:31.860671 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m11:31:31.861026 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'warn_error': 'None', 'partial_parse': 'True', 'write_json': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'target_path': 'None', 'profiles_dir': '/Users/eldorado/.dbt', 'invocation_command': 'dbt init swiss_jobs_dbt', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'maximum_seed_size_mib': '1', 'indirect_selection': 'eager', 'log_path': 'logs', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80'}
+[0m11:31:31.869522 [info ] [MainThread]: Creating dbt configuration folder at /Users/eldorado/.dbt
+[0m11:31:31.871148 [debug] [MainThread]: Starter project path: /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m11:31:31.875004 [info ] [MainThread]: Setting up your profile.
+[0m11:33:06.139682 [info ] [MainThread]: Profile swiss_jobs_dbt written to /Users/eldorado/.dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m11:33:06.150486 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m11:33:06.152344 [info ] [MainThread]: dbt version: 1.12.0-b3
+[0m11:33:06.152793 [info ] [MainThread]: python version: 3.11.15
+[0m11:33:06.153146 [info ] [MainThread]: python path: /Users/eldorado/Documents/swiss-job-intelligence/venv/bin/python3.11
+[0m11:33:06.153536 [info ] [MainThread]: os info: macOS-15.3.1-arm64-arm-64bit
+[0m11:33:06.184498 [info ] [MainThread]: Using profiles dir at /Users/eldorado/.dbt
+[0m11:33:06.184992 [info ] [MainThread]: Using profiles.yml file at /Users/eldorado/.dbt/profiles.yml
+[0m11:33:06.185242 [info ] [MainThread]: Using dbt_project.yml file at /Users/eldorado/Documents/swiss-job-intelligence/dbt_project/swiss_jobs_dbt/dbt_project.yml
+[0m11:33:06.186003 [info ] [MainThread]: adapter type: postgres
+[0m11:33:06.186418 [info ] [MainThread]: adapter version: 1.10.1
+[0m11:33:06.248516 [info ] [MainThread]: Configuration:
+[0m11:33:06.248855 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:33:06.249018 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:33:06.249162 [info ] [MainThread]: Required dependencies:
+[0m11:33:06.249379 [debug] [MainThread]: Executing "git --help"
+[0m11:33:06.267645 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:33:06.268228 [debug] [MainThread]: STDERR: "b''"
+[0m11:33:06.268428 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:33:06.268609 [info ] [MainThread]: Connection:
+[0m11:33:06.268800 [info ] [MainThread]:   host: localhost
+[0m11:33:06.268950 [info ] [MainThread]:   port: 5432
+[0m11:33:06.269087 [info ] [MainThread]:   user: postgres
+[0m11:33:06.269224 [info ] [MainThread]:   database: swiss_jobs
+[0m11:33:06.269356 [info ] [MainThread]:   schema: analytics
+[0m11:33:06.269490 [info ] [MainThread]:   connect_timeout: 10
+[0m11:33:06.269621 [info ] [MainThread]:   role: None
+[0m11:33:06.269759 [info ] [MainThread]:   search_path: None
+[0m11:33:06.269901 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:33:06.270033 [info ] [MainThread]:   sslmode: None
+[0m11:33:06.270167 [info ] [MainThread]:   sslcert: None
+[0m11:33:06.270296 [info ] [MainThread]:   sslkey: None
+[0m11:33:06.270423 [info ] [MainThread]:   sslrootcert: None
+[0m11:33:06.270554 [info ] [MainThread]:   application_name: dbt
+[0m11:33:06.270681 [info ] [MainThread]:   retries: 1
+[0m11:33:06.271074 [info ] [MainThread]: Registered adapter: postgres=1.10.1
+[0m11:33:06.511554 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:33:06.601093 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:33:06.601347 [debug] [MainThread]: On debug: select 1 as id
+[0m11:33:06.601500 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:33:06.733667 [debug] [MainThread]: SQL status: SELECT 1 in 0.132 seconds
+[0m11:33:06.734442 [debug] [MainThread]: On debug: Close
+[0m11:33:06.734696 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:33:06.734936 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:33:06.735202 [info ] [MainThread]: Your new dbt project "swiss_jobs_dbt" was created!
+Initialized new project in /Users/eldorado/Documents/swiss-job-intelligence/dbt_project/swiss_jobs_dbt/swiss_jobs_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:33:06.893141 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 95.08771, "process_in_blocks": "0", "process_kernel_time": 0.270091, "process_mem_max_rss": "128843776", "process_out_blocks": "0", "process_user_time": 0.930526}
+[0m11:33:06.894054 [debug] [MainThread]: Command `dbt init` succeeded at 11:33:06.893902 after 95.09 seconds
+[0m11:33:06.894640 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:33:06.895263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e1e910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aabdd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a410210>]}
+[0m11:33:06.895979 [debug] [MainThread]: Flushing usage events
+[0m11:33:07.493573 [debug] [MainThread]: An error was encountered while trying to flush usage events

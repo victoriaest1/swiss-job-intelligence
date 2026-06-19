@@ -1,0 +1,21 @@
+[2026-06-19T07:22:47.126+0200] {processor.py:161} INFO - Started process (PID=93266) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:22:47.127+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-06-19T07:22:47.127+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:47.127+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:22:47.133+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:22:47.200+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:47.200+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:22:47.204+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:22:47.204+0200] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-06-19T07:22:47.212+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2026-06-19T07:24:52.074+0200] {processor.py:161} INFO - Started process (PID=93423) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:24:52.074+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-06-19T07:24:52.075+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:52.075+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:24:52.081+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:24:52.145+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:52.144+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:24:52.148+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:52.148+0200] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-06-19T07:24:52.156+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.083 seconds
+[2026-06-19T07:27:13.089+0200] {processor.py:161} INFO - Started process (PID=93769) to work on /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:27:13.089+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-06-19T07:27:13.090+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:13.090+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:27:13.096+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-06-19T07:27:13.164+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:13.164+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:27:13.168+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:13.167+0200] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-06-19T07:27:13.176+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds

@@ -1,0 +1,21 @@
+[2026-06-18T17:13:52.313+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.ingest_data scheduled__2026-06-17T06:00:00+00:00 [queued]>
+[2026-06-18T17:13:52.315+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.ingest_data scheduled__2026-06-17T06:00:00+00:00 [queued]>
+[2026-06-18T17:13:52.315+0200] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-06-18T17:13:52.319+0200] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): ingest_data> on 2026-06-17 06:00:00+00:00
+[2026-06-18T17:13:52.323+0200] {standard_task_runner.py:60} INFO - Started process 33645 to run task
+[2026-06-18T17:13:52.326+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'ingest_data', 'scheduled__2026-06-17T06:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py', '--cfg-path', '/var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T/tmppe9_zzgq']
+[2026-06-18T17:13:52.328+0200] {standard_task_runner.py:88} INFO - Job 2: Subtask ingest_data
+[2026-06-18T17:13:52.347+0200] {task_command.py:423} INFO - Running <TaskInstance: swiss_jobs_pipeline.ingest_data scheduled__2026-06-17T06:00:00+00:00 [running]> on host els-imac.local
+[2026-06-18T17:13:52.367+0200] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='victoria' AIRFLOW_CTX_DAG_ID='swiss_jobs_pipeline' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-17T06:00:00+00:00'
+[2026-06-18T17:13:52.369+0200] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T
+[2026-06-18T17:13:52.370+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/eldorado/Documents/swiss-job-intelligence && source venv/bin/activate && python ingestion/data_generator.py']
+[2026-06-18T17:13:52.373+0200] {subprocess.py:86} INFO - Output:
+[2026-06-18T17:13:53.785+0200] {subprocess.py:93} INFO - Generating Swiss job market data...
+[2026-06-18T17:13:53.785+0200] {subprocess.py:93} INFO - Generated 5,000 job postings
+[2026-06-18T17:13:53.785+0200] {subprocess.py:93} INFO - Loading into PostgreSQL...
+[2026-06-18T17:13:53.786+0200] {subprocess.py:93} INFO - Loaded 5,000 job postings into PostgreSQL
+[2026-06-18T17:13:53.786+0200] {subprocess.py:93} INFO - Done!
+[2026-06-18T17:13:53.825+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-06-18T17:13:53.832+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=swiss_jobs_pipeline, task_id=ingest_data, execution_date=20260617T060000, start_date=20260618T151352, end_date=20260618T151353
+[2026-06-18T17:13:53.837+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-18T17:13:53.846+0200] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,63 @@
+[2026-06-19T07:21:07.356+0200] {processor.py:161} INFO - Started process (PID=92979) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:21:07.356+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:21:07.357+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:21:07.357+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:21:07.363+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:21:07.432+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:21:07.432+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:21:07.439+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:21:07.439+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:21:07.446+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.091 seconds
+[2026-06-19T07:23:02.405+0200] {processor.py:161} INFO - Started process (PID=93282) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:23:02.406+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:23:02.406+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:23:02.406+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:23:02.411+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:23:02.472+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:23:02.472+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:23:02.478+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:23:02.478+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:23:02.487+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.082 seconds
+[2026-06-19T07:24:04.359+0200] {processor.py:161} INFO - Started process (PID=93353) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:24:04.360+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:24:04.361+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:04.361+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:24:04.365+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:24:04.426+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:04.426+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:24:04.433+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:24:04.433+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:24:04.441+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.082 seconds
+[2026-06-19T07:25:07.397+0200] {processor.py:161} INFO - Started process (PID=93442) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:25:07.398+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:25:07.398+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:25:07.398+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:25:07.403+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:25:07.471+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:25:07.471+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:25:07.479+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:25:07.479+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:25:07.488+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.091 seconds
+[2026-06-19T07:26:09.916+0200] {processor.py:161} INFO - Started process (PID=93636) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:26:09.917+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:26:09.917+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:09.917+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:26:09.923+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:26:09.992+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:09.992+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:26:09.999+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:26:09.999+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:26:10.009+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.093 seconds
+[2026-06-19T07:27:28.293+0200] {processor.py:161} INFO - Started process (PID=93789) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:27:28.294+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:27:28.294+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:28.294+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:27:28.298+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:27:28.358+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:28.357+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:27:28.364+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:27:28.364+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:27:28.372+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.080 seconds
+[2026-06-19T07:30:46.041+0200] {processor.py:161} INFO - Started process (PID=95037) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:30:46.042+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:30:46.043+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:30:46.043+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:30:46.049+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:30:46.116+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:30:46.116+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:30:46.123+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:30:46.123+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:30:46.131+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.090 seconds
+[2026-06-19T07:32:09.308+0200] {processor.py:161} INFO - Started process (PID=95363) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:32:09.311+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:32:09.311+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:32:09.311+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:32:09.315+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:32:09.319+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:32:09.319+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:32:09.378+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:32:09.378+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:32:09.387+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.079 seconds
+[2026-06-19T07:34:42.986+0200] {processor.py:161} INFO - Started process (PID=98100) to work on /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:34:42.987+0200] {processor.py:830} INFO - Processing file /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py for tasks to queue
+[2026-06-19T07:34:42.987+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:34:42.987+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:34:42.994+0200] {processor.py:840} INFO - DAG(s) 'swiss_jobs_pipeline' retrieved from /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py
+[2026-06-19T07:34:43.116+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:34:43.116+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-19T07:34:43.123+0200] {logging_mixin.py:188} INFO - [2026-06-19T07:34:43.123+0200] {dag.py:3823} INFO - Setting next_dagrun for swiss_jobs_pipeline to 2026-06-18 06:00:00+00:00, run_after=2026-06-19 06:00:00+00:00
+[2026-06-19T07:34:43.132+0200] {processor.py:183} INFO - Processing /Users/eldorado/Documents/swiss-job-intelligence/airflow/dags/swiss_jobs_pipeline.py took 0.147 seconds

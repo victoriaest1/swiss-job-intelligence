@@ -1,0 +1,93 @@
+[2026-06-19T07:21:21.385+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [queued]>
+[2026-06-19T07:21:21.387+0200] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [queued]>
+[2026-06-19T07:21:21.387+0200] {taskinstance.py:2170} INFO - Starting attempt 3 of 4
+[2026-06-19T07:21:21.391+0200] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-06-18 15:14:40.029406+00:00
+[2026-06-19T07:21:21.395+0200] {standard_task_runner.py:60} INFO - Started process 93034 to run task
+[2026-06-19T07:21:21.398+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'swiss_jobs_pipeline', 'dbt_run', 'manual__2026-06-18T15:14:40.029406+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/swiss_jobs_pipeline.py', '--cfg-path', '/var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T/tmp1vqyyy41']
+[2026-06-19T07:21:21.399+0200] {standard_task_runner.py:88} INFO - Job 15: Subtask dbt_run
+[2026-06-19T07:21:21.416+0200] {task_command.py:423} INFO - Running <TaskInstance: swiss_jobs_pipeline.dbt_run manual__2026-06-18T15:14:40.029406+00:00 [running]> on host els-imac.local
+[2026-06-19T07:21:21.434+0200] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='victoria' AIRFLOW_CTX_DAG_ID='swiss_jobs_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-06-18T15:14:40.029406+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-18T15:14:40.029406+00:00'
+[2026-06-19T07:21:21.435+0200] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/rn/zcy2ggpj6l75fkt4n9nwd0v80000gn/T
+[2026-06-19T07:21:21.435+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/eldorado/Documents/swiss-job-intelligence/dbt_project/swiss_jobs_dbt && /Users/eldorado/Documents/swiss-job-intelligence/venv/bin/dbt run']
+[2026-06-19T07:21:21.439+0200] {subprocess.py:86} INFO - Output:
+[2026-06-19T07:21:22.230+0200] {subprocess.py:93} INFO - [0m05:21:22  Running with dbt=1.12.0-b3
+[2026-06-19T07:21:22.343+0200] {subprocess.py:93} INFO - [0m05:21:22  Registered adapter: postgres=1.10.1
+[2026-06-19T07:21:22.602+0200] {subprocess.py:93} INFO - [0m05:21:22  Found 6 data tests, 7 models, 1 source, 475 macros
+[2026-06-19T07:21:22.603+0200] {subprocess.py:93} INFO - [0m05:21:22
+[2026-06-19T07:21:22.604+0200] {subprocess.py:93} INFO - [0m05:21:22  Concurrency: 4 threads (target='dev')
+[2026-06-19T07:21:22.604+0200] {subprocess.py:93} INFO - [0m05:21:22
+[2026-06-19T07:21:22.695+0200] {subprocess.py:93} INFO - [0m05:21:22  1 of 7 START sql view model analytics.stg_job_postings ......................... [RUN]
+[2026-06-19T07:21:22.767+0200] {subprocess.py:93} INFO - [0m05:21:22  1 of 7 OK created sql view model analytics.stg_job_postings .................... [[32mCREATE VIEW[0m in 0.07s]
+[2026-06-19T07:21:22.768+0200] {subprocess.py:93} INFO - [0m05:21:22  2 of 7 START sql view model analytics.int_job_postings_enriched ................ [RUN]
+[2026-06-19T07:21:22.796+0200] {subprocess.py:93} INFO - [0m05:21:22  2 of 7 OK created sql view model analytics.int_job_postings_enriched ........... [[32mCREATE VIEW[0m in 0.03s]
+[2026-06-19T07:21:22.797+0200] {subprocess.py:93} INFO - [0m05:21:22  3 of 7 START sql view model analytics.int_skills_exploded ...................... [RUN]
+[2026-06-19T07:21:22.798+0200] {subprocess.py:93} INFO - [0m05:21:22  4 of 7 START sql table model analytics.mart_dashboard_kpis ..................... [RUN]
+[2026-06-19T07:21:22.798+0200] {subprocess.py:93} INFO - [0m05:21:22  5 of 7 START sql table model analytics.mart_market_overview .................... [RUN]
+[2026-06-19T07:21:22.798+0200] {subprocess.py:93} INFO - [0m05:21:22  6 of 7 START sql table model analytics.mart_salary_benchmarks .................. [RUN]
+[2026-06-19T07:21:22.859+0200] {subprocess.py:93} INFO - [0m05:21:22  3 of 7 OK created sql view model analytics.int_skills_exploded ................. [[32mCREATE VIEW[0m in 0.06s]
+[2026-06-19T07:21:22.866+0200] {subprocess.py:93} INFO - [0m05:21:22  7 of 7 START sql table model analytics.mart_skill_demand ....................... [RUN]
+[2026-06-19T07:21:22.896+0200] {subprocess.py:93} INFO - [0m05:21:22  4 of 7 OK created sql table model analytics.mart_dashboard_kpis ................ [[32mSELECT 1[0m in 0.09s]
+[2026-06-19T07:21:22.897+0200] {subprocess.py:93} INFO - [0m05:21:22  5 of 7 OK created sql table model analytics.mart_market_overview ............... [[32mSELECT 604[0m in 0.09s]
+[2026-06-19T07:21:22.897+0200] {subprocess.py:93} INFO - [0m05:21:22  6 of 7 OK created sql table model analytics.mart_salary_benchmarks ............. [[32mSELECT 279[0m in 0.10s]
+[2026-06-19T07:21:22.936+0200] {subprocess.py:93} INFO - [0m05:21:22  7 of 7 OK created sql table model analytics.mart_skill_demand .................. [[32mSELECT 258[0m in 0.07s]
+[2026-06-19T07:21:22.947+0200] {subprocess.py:93} INFO - [0m05:21:22
+[2026-06-19T07:21:22.947+0200] {subprocess.py:93} INFO - [0m05:21:22  Finished running 4 table models, 3 view models in 0 hours 0 minutes and 0.34 seconds (0.34s).
+[2026-06-19T07:21:22.970+0200] {subprocess.py:93} INFO - [0m05:21:22
+[2026-06-19T07:21:22.971+0200] {subprocess.py:93} INFO - [0m05:21:22  [32mCompleted successfully[0m
+[2026-06-19T07:21:22.971+0200] {subprocess.py:93} INFO - [0m05:21:22
+[2026-06-19T07:21:22.971+0200] {subprocess.py:93} INFO - [0m05:21:22  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=7
+[2026-06-19T07:21:23.487+0200] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-19T07:21:23.488+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/bin/dbt", line 6, in <module>
+[2026-06-19T07:21:23.489+0200] {subprocess.py:93} INFO -     sys.exit(cli())
+[2026-06-19T07:21:23.490+0200] {subprocess.py:93} INFO -              ^^^^^
+[2026-06-19T07:21:23.491+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+[2026-06-19T07:21:23.491+0200] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2026-06-19T07:21:23.492+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.493+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/core.py", line 1078, in main
+[2026-06-19T07:21:23.494+0200] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2026-06-19T07:21:23.495+0200] {subprocess.py:93} INFO -          ^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.495+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+[2026-06-19T07:21:23.496+0200] {subprocess.py:93} INFO -     return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2026-06-19T07:21:23.496+0200] {subprocess.py:93} INFO -                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.497+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+[2026-06-19T07:21:23.497+0200] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2026-06-19T07:21:23.498+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.499+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+[2026-06-19T07:21:23.499+0200] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2026-06-19T07:21:23.500+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.500+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/click/decorators.py", line 33, in new_func
+[2026-06-19T07:21:23.501+0200] {subprocess.py:93} INFO -     return f(get_current_context(), *args, **kwargs)
+[2026-06-19T07:21:23.501+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.502+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/cli/main.py", line 161, in wrapper
+[2026-06-19T07:21:23.503+0200] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2026-06-19T07:21:23.503+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.504+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 222, in wrapper
+[2026-06-19T07:21:23.504+0200] {subprocess.py:93} INFO -     fire_event(
+[2026-06-19T07:21:23.505+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/functions.py", line 142, in fire_event
+[2026-06-19T07:21:23.505+0200] {subprocess.py:93} INFO -     get_event_manager().fire_event(
+[2026-06-19T07:21:23.506+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/event_manager.py", line 74, in fire_event
+[2026-06-19T07:21:23.506+0200] {subprocess.py:93} INFO -     msg = msg_from_base_event(e, level=level)
+[2026-06-19T07:21:23.507+0200] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.507+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/base_types.py", line 150, in msg_from_base_event
+[2026-06-19T07:21:23.508+0200] {subprocess.py:93} INFO -     "msg": event.message(),
+[2026-06-19T07:21:23.508+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.509+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt/events/types.py", line 2621, in message
+[2026-06-19T07:21:23.509+0200] {subprocess.py:93} INFO -     return f"Resource report: {self.to_json()}"
+[2026-06-19T07:21:23.509+0200] {subprocess.py:93} INFO -                                ^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.510+0200] {subprocess.py:93} INFO -   File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/dbt_common/events/base_types.py", line 105, in to_json
+[2026-06-19T07:21:23.510+0200] {subprocess.py:93} INFO -     return MessageToJson(
+[2026-06-19T07:21:23.511+0200] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^
+[2026-06-19T07:21:23.511+0200] {subprocess.py:93} INFO - TypeError: MessageToJson() got an unexpected keyword argument 'always_print_fields_with_no_presence'
+[2026-06-19T07:21:23.701+0200] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-19T07:21:23.705+0200] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eldorado/Documents/swiss-job-intelligence/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-19T07:21:23.706+0200] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=swiss_jobs_pipeline, task_id=dbt_run, execution_date=20260618T151440, start_date=20260619T052121, end_date=20260619T052123
+[2026-06-19T07:21:23.710+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 15 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 93034)
+[2026-06-19T07:21:23.745+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-06-19T07:21:23.755+0200] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
