@@ -37,6 +37,27 @@ jobs:
         run: |
           pip install dbt-postgres psycopg2-binary pandas faker python-dotenv
 
+      - name: Create database table
+        run: |
+          PGPASSWORD=SwissJobs2026! psql -h localhost -U postgres -d swiss_jobs -c "
+          CREATE TABLE IF NOT EXISTS raw_job_postings (
+            id SERIAL PRIMARY KEY,
+            title VARCHAR(200),
+            company VARCHAR(200),
+            city VARCHAR(100),
+            canton VARCHAR(10),
+            salary_min INTEGER,
+            salary_max INTEGER,
+            salary_mid INTEGER,
+            skills TEXT,
+            industry VARCHAR(100),
+            remote BOOLEAN,
+            language VARCHAR(50),
+            date_posted DATE,
+            experience_yr INTEGER,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+          );"
+
       - name: Generate test data
         run: python ingestion/data_generator.py
         env:
