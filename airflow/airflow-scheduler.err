@@ -1,0 +1,9 @@
+[2026-06-18 17:10:48 +0200] [33259] [INFO] Starting gunicorn 21.2.0
+[2026-06-18 17:10:48 +0200] [33259] [INFO] Listening at: http://[::]:8793 (33259)
+[2026-06-18 17:10:48 +0200] [33259] [INFO] Using worker: sync
+[2026-06-18 17:10:48 +0200] [33266] [INFO] Booting worker with pid: 33266
+[2026-06-18 17:10:48 +0200] [33267] [INFO] Booting worker with pid: 33267
+[2026-06-18 20:19:07 +0200] [33259] [INFO] Handling signal: term
+[2026-06-18 20:19:07 +0200] [33266] [INFO] Worker exiting (pid: 33266)
+[2026-06-18 20:19:07 +0200] [33267] [INFO] Worker exiting (pid: 33267)
+[2026-06-18 20:19:07 +0200] [33259] [INFO] Shutting down: Master

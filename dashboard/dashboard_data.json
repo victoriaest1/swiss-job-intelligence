@@ -1,0 +1,202 @@
+{
+  "overview": {
+    "total_postings": 5000,
+    "avg_salary_chf": 136601,
+    "remote_pct": 40.9,
+    "total_companies": 121,
+    "total_cities": 10
+  },
+  "cities": [
+    {
+      "city": "Zurich",
+      "postings": 1898,
+      "avg_salary": 137461,
+      "remote_pct": 40.8
+    },
+    {
+      "city": "Basel",
+      "postings": 1052,
+      "avg_salary": 135997,
+      "remote_pct": 39.3
+    },
+    {
+      "city": "Geneva",
+      "postings": 835,
+      "avg_salary": 135207,
+      "remote_pct": 41.3
+    },
+    {
+      "city": "Lausanne",
+      "postings": 577,
+      "avg_salary": 136081,
+      "remote_pct": 44.7
+    },
+    {
+      "city": "Bern",
+      "postings": 389,
+      "avg_salary": 137663,
+      "remote_pct": 40.9
+    },
+    {
+      "city": "Zug",
+      "postings": 106,
+      "avg_salary": 134637,
+      "remote_pct": 42.9
+    },
+    {
+      "city": "Lucerne",
+      "postings": 58,
+      "avg_salary": 135643,
+      "remote_pct": 34.7
+    },
+    {
+      "city": "Winterthur",
+      "postings": 45,
+      "avg_salary": 142118,
+      "remote_pct": 30.4
+    },
+    {
+      "city": "St. Gallen",
+      "postings": 23,
+      "avg_salary": 130147,
+      "remote_pct": 41.2
+    },
+    {
+      "city": "Lugano",
+      "postings": 17,
+      "avg_salary": 141327,
+      "remote_pct": 28.6
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Python",
+      "count": 4125,
+      "avg_salary": 139131
+    },
+    {
+      "skill": "SQL",
+      "count": 3315,
+      "avg_salary": 135356
+    },
+    {
+      "skill": "Docker",
+      "count": 2477,
+      "avg_salary": 141912
+    },
+    {
+      "skill": "Power BI",
+      "count": 1717,
+      "avg_salary": 119660
+    },
+    {
+      "skill": "PostgreSQL",
+      "count": 1695,
+      "avg_salary": 134948
+    },
+    {
+      "skill": "Tableau",
+      "count": 1279,
+      "avg_salary": 115161
+    },
+    {
+      "skill": "dbt",
+      "count": 1265,
+      "avg_salary": 143051
+    },
+    {
+      "skill": "DAX",
+      "count": 880,
+      "avg_salary": 119045
+    },
+    {
+      "skill": "Excel",
+      "count": 868,
+      "avg_salary": 108702
+    },
+    {
+      "skill": "AWS",
+      "count": 853,
+      "avg_salary": 147664
+    },
+    {
+      "skill": "Kubernetes",
+      "count": 848,
+      "avg_salary": 140391
+    },
+    {
+      "skill": "MLflow",
+      "count": 782,
+      "avg_salary": 158869
+    },
+    {
+      "skill": "PyTorch",
+      "count": 782,
+      "avg_salary": 158869
+    },
+    {
+      "skill": "Snowflake",
+      "count": 438,
+      "avg_salary": 132370
+    },
+    {
+      "skill": "Redis",
+      "count": 431,
+      "avg_salary": 137019
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "Jun",
+      "postings": 184
+    },
+    {
+      "month": "Jul",
+      "postings": 426
+    },
+    {
+      "month": "Aug",
+      "postings": 407
+    },
+    {
+      "month": "Sep",
+      "postings": 431
+    },
+    {
+      "month": "Oct",
+      "postings": 389
+    },
+    {
+      "month": "Nov",
+      "postings": 456
+    },
+    {
+      "month": "Dec",
+      "postings": 406
+    },
+    {
+      "month": "Jan",
+      "postings": 427
+    },
+    {
+      "month": "Feb",
+      "postings": 394
+    },
+    {
+      "month": "Mar",
+      "postings": 390
+    },
+    {
+      "month": "Apr",
+      "postings": 424
+    },
+    {
+      "month": "May",
+      "postings": 416
+    },
+    {
+      "month": "Jun",
+      "postings": 250
+    }
+  ]
+}
