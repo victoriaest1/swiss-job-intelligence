@@ -1,3 +1,9 @@
-[[34m2026-06-19T02:37:14.793+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected[0m
-[[34m2026-06-19T02:54:55.686+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected[0m
-[[34m2026-06-19T07:32:02.270+0200[0m] {[34mwebserver_command.py:[0m429} INFO[0m - Received signal: 15. Closing gunicorn.[0m
+[[34m2026-06-19T12:53:55.666+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [2 / 2] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T02:58:01.784+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [2 / 2] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T03:26:32.980+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [3 / 3] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T13:00:24.804+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [3 / 3] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T13:16:37.540+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [3 / 3] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T14:45:36.405+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [3 / 3] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T15:35:28.996+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [2 / 2] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T16:03:27.351+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected[0m
+[[34m2026-06-20T16:34:00.311+0200[0m] {[34mwebserver_command.py:[0m257} ERROR[0m - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected[0m
