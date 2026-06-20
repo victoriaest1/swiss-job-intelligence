@@ -1050,11 +1050,11 @@ body::before {
   </div>
   <div class="g-2" style="margin-bottom:16px">
     <div class="card">
-      <div class="card-head"><div><div class="card-title">Skill Demand Over Time</div><div class="card-sub">% of postings per month · 2025</div></div><span class="badge badge-p">TIME SERIES</span></div>
+      <div class="card-head"><div><div class="card-title">Skill Demand Over Time</div><div class="card-sub">% of postings per month · 2025–2026</div></div><span class="badge badge-p">TIME SERIES</span></div>
       <div class="chart-box" style="height:220px"><canvas id="c-skill-trend"></canvas></div>
     </div>
     <div class="card">
-      <div class="card-head"><div><div class="card-title">Remote Work Adoption</div><div class="card-sub">% offering remote or hybrid · Switzerland 2025</div></div><span class="badge badge-g">REMOTE</span></div>
+      <div class="card-head"><div><div class="card-title">Remote Work Adoption</div><div class="card-sub">% offering remote or hybrid · Switzerland 2025–2026</div></div><span class="badge badge-g">REMOTE</span></div>
       <div class="chart-box" style="height:220px"><canvas id="c-remote"></canvas></div>
     </div>
   </div>
@@ -1157,11 +1157,11 @@ new Chart(document.getElementById('c-sal-grouped'),{
 // ── Salary growth ────────────────────────────────────────────
 new Chart(document.getElementById('c-sal-growth'),{
   type:'line',
-  data:{labels:['2022','2023','2024','2025'],datasets:[
-    {label:'Data Sci.',data:[115,125,142,155],borderColor:'#7C3AED',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#7C3AED',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
-    {label:'Data Eng.',data:[108,118,135,148],borderColor:'#2563EB',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#2563EB',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
-    {label:'Full Stack',data:[98,106,118,128],borderColor:'#059669',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#059669',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
-    {label:'Analyst', data:[85,92,102,110], borderColor:'#D97706',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#D97706',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
+  data:{labels:['2022','2023','2024','2025','2026'],datasets:[
+    {label:'Data Sci.',data:[115,125,142,155,169],borderColor:'#7C3AED',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#7C3AED',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
+    {label:'Data Eng.',data:[108,118,135,148,161],borderColor:'#2563EB',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#2563EB',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
+    {label:'Full Stack',data:[98,106,118,128,138],borderColor:'#059669',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#059669',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
+    {label:'Analyst', data:[85,92,102,110,118], borderColor:'#D97706',tension:.3,pointRadius:5,pointBackgroundColor:'#fff',pointBorderColor:'#D97706',pointBorderWidth:2.5,borderWidth:2.5,fill:false},
   ]},
   options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,labels:{color:'#374151',font:{weight:'600'},boxWidth:10,boxHeight:10,padding:12}},tooltip:{...TT,callbacks:{label:c=>`  ${c.dataset.label}: CHF ${c.parsed.y}K`}}},scales:{x:{grid:{display:false},ticks:{color:'#9CA3AF'}},y:{grid:{color:GC},ticks:{color:'#9CA3AF',callback:v=>`CHF ${v}K`},min:75,max:175}}}
 });
@@ -1198,11 +1198,11 @@ new Chart(document.getElementById('c-remote'),{
 // ── Salary trajectory ────────────────────────────────────────
 new Chart(document.getElementById('c-sal-traj'),{
   type:'line',
-  data:{labels:['2022','2023','2024','2025'],datasets:[
-    {label:'Data Scientist',data:[115,125,142,155],borderColor:'#7C3AED',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#7C3AED',pointBorderWidth:3,borderWidth:2.5,fill:false},
-    {label:'Data Engineer', data:[108,118,135,148],borderColor:'#2563EB',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#2563EB',pointBorderWidth:3,borderWidth:2.5,fill:false},
-    {label:'Full Stack',    data:[98,106,118,128], borderColor:'#059669',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#059669',pointBorderWidth:3,borderWidth:2.5,fill:false},
-    {label:'Data Analyst',  data:[85,92,102,110],  borderColor:'#D97706',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#D97706',pointBorderWidth:3,borderWidth:2.5,fill:false},
+  data:{labels:['2022','2023','2024','2025','2026'],datasets:[
+    {label:'Data Scientist',data:[115,125,142,155,169],borderColor:'#7C3AED',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#7C3AED',pointBorderWidth:3,borderWidth:2.5,fill:false},
+    {label:'Data Engineer', data:[108,118,135,148,161],borderColor:'#2563EB',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#2563EB',pointBorderWidth:3,borderWidth:2.5,fill:false},
+    {label:'Full Stack',    data:[98,106,118,128,138], borderColor:'#059669',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#059669',pointBorderWidth:3,borderWidth:2.5,fill:false},
+    {label:'Data Analyst',  data:[85,92,102,110,118],  borderColor:'#D97706',tension:.3,pointRadius:6,pointBackgroundColor:'#fff',pointBorderColor:'#D97706',pointBorderWidth:3,borderWidth:2.5,fill:false},
   ]},
   options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,position:'bottom',labels:{color:'#374151',font:{weight:'600',size:11},boxWidth:10,boxHeight:10,padding:16}},tooltip:{...TT,callbacks:{label:c=>`  ${c.dataset.label}: CHF ${c.parsed.y}K`}}},scales:{x:{grid:{display:false},ticks:{color:'#9CA3AF'}},y:{grid:{color:GC},ticks:{color:'#9CA3AF',callback:v=>`CHF ${v}K`},min:75,max:175}}}
 });
