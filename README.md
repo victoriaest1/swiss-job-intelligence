@@ -53,6 +53,12 @@ Python + Faker  ──▶  PostgreSQL  ──▶  Apache Airflow  ──▶  dbt
 | Web dashboard | HTML, CSS, JavaScript (Chart.js) |
 | EDA | Jupyter Notebook |
 
+<div align="center">
+  <img width="900" src="docs/screenshots/airflow_dag.png" alt="Airflow DAG — ingest → dbt run → dbt test → dbt docs → export"/>
+</div>
+
+The Airflow DAG runs five tasks in sequence: raw data ingestion into PostgreSQL, dbt transformation, dbt tests, docs generation, and JSON export for the web dashboard.
+
 ---
 
 ## Key Insights
