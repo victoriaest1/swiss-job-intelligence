@@ -60,7 +60,7 @@ Python + Faker  ──▶  PostgreSQL  ──▶  Apache Airflow  ──▶  dbt
 ### Hiring by City — Zurich Dominates
 
 <div align="center">
-  <img width="900" src="docs/images/job_postings_by_city.png" alt="Job Postings by Swiss City"/>
+  <img width="900" src="docs/screenshots/job_postings_by_city.png" alt="Job Postings by Swiss City"/>
 </div>
 
 Zurich accounts for **1,898 postings (38%)** of all listings — nearly double Basel (1,052) and more than double Geneva (835). The concentration reflects Switzerland's financial and tech hub structure. Smaller cities like Zug and Lucerne show meaningful activity in their niches (finance and pharma respectively) but at much lower volumes.
@@ -70,7 +70,7 @@ Zurich accounts for **1,898 postings (38%)** of all listings — nearly double B
 ### Industry Breakdown — Finance & Banking Leads
 
 <div align="center">
-  <img width="900" src="docs/images/industry_breakdown.png" alt="Industry Breakdown"/>
+  <img width="900" src="docs/screenshots/industry_breakdown.png" alt="Industry Breakdown"/>
 </div>
 
 Finance & Banking (1,423 postings) and Technology & SaaS (1,187) together account for over **52% of all listings**. Pharma & Biotech (757) rounds out the top 3, reflecting Switzerland's strengths in banking (Zurich, Zug) and life sciences (Basel, Geneva). Healthcare is underrepresented at just 207 postings — data roles in that sector are still emerging.
@@ -80,7 +80,7 @@ Finance & Banking (1,423 postings) and Technology & SaaS (1,187) together accoun
 ### Top Skills — Python Is Non-Negotiable
 
 <div align="center">
-  <img width="900" src="docs/images/top_skills.png" alt="Top Skills by Job Count"/>
+  <img width="900" src="docs/screenshots/top_skills.png" alt="Top Skills by Job Count"/>
 </div>
 
 Python (4,125) and SQL (3,315) appear in over **65% of all postings** — making them the non-negotiable baseline for any data or engineering role. Docker (2,477) ranks third, reflecting a containerization-first culture in Swiss tech teams. Power BI and PostgreSQL follow closely, while tools like dbt, Airflow, Kafka, and Spark signal strong demand for modern data stack skills in senior positions.
@@ -90,7 +90,7 @@ Python (4,125) and SQL (3,315) appear in over **65% of all postings** — making
 ### Salary by Role — Seniority Pays
 
 <div align="center">
-  <img width="900" src="docs/images/salary_by_role.png" alt="Salary by Role"/>
+  <img width="900" src="docs/screenshots/salary_by_role.png" alt="Salary by Role"/>
 </div>
 
 Senior Data Scientists top the chart at **CHF 165,217**, followed by Senior Data Engineers (CHF 157,846) and ML Engineers (CHF 140,950). The jump between senior and non-senior roles is significant — Data Scientists earn CHF 138,696 vs CHF 165,217 for their senior counterparts, a **~20% premium for seniority**. BI Developers (CHF 108,521) and Data Analysts (CHF 105,933) sit at the lower end, reflecting the commoditization of reporting roles relative to engineering and ML.
@@ -100,7 +100,7 @@ Senior Data Scientists top the chart at **CHF 165,217**, followed by Senior Data
 ### Remote Work by City — Geography Doesn't Limit Flexibility
 
 <div align="center">
-  <img width="900" src="docs/images/remote_by_city.png" alt="Remote Work % by City"/>
+  <img width="900" src="docs/screenshots/remote_by_city.png" alt="Remote Work % by City"/>
 </div>
 
 Remote flexibility is broadly distributed across all cities, ranging from **44.7% in Lausanne** to 28.6% in Lugano. Lausanne and Zug lead — likely tied to their international and financial company bases. Winterthur and Lugano trail, possibly due to more manufacturing and regional firm presence. Zurich (40.8%) is close to the national average despite being the largest market, suggesting strong hybrid norms rather than full office mandates.
@@ -110,7 +110,7 @@ Remote flexibility is broadly distributed across all cities, ranging from **44.7
 ### Monthly Hiring Trend — Stable with Seasonal Dips
 
 <div align="center">
-  <img width="900" src="docs/images/monthly_trend.png" alt="Monthly Hiring Trend"/>
+  <img width="900" src="docs/screenshots/monthly_trend.png" alt="Monthly Hiring Trend"/>
 </div>
 
 Hiring peaked in **November 2025 (456 postings)** and stayed broadly stable through mid-2026, between 390–430 postings per month. Two clear dips stand out: October 2025 (389) likely reflecting a post-summer slowdown, and June 2026 (250) showing the typical early-summer slowdown as companies freeze headcount ahead of holiday periods. The data suggests Swiss tech hiring is relatively consistent year-round with moderate seasonal variation.
@@ -227,10 +227,4 @@ Synthetically generated using Python's Faker library with Swiss-specific context
 
 > This is a portfolio project. All data is synthetic and generated for demonstration purposes only.
 
----
 
-## Author
-
-**Victoria**  
-Data Engineering & Analytics  
-📧 waffleslikecoding@outlook.com
