@@ -142,7 +142,6 @@ Hiring peaked in **November 2025 (456 postings)** and stayed broadly stable thro
         <li><strong>Add a skills co-occurrence analysis.</strong> Knowing that Python and dbt appear together in 80% of Data Engineer postings is more useful than standalone counts.</li>
         <li><strong>Build a salary prediction model.</strong> With role, city, seniority, and skill set as features, a regression model could predict expected compensation — a natural next step for the ML layer.</li>
         <li><strong>Track trends over time.</strong> Extending the Airflow DAG to run weekly and append to the database would enable real trend detection — which skills are rising, which cities are cooling.</li>
-        <li><strong>Publish to Tableau Public.</strong> Making the workbook publicly accessible would allow the dashboards to be embedded directly in a portfolio site.</li>
       </ul>
     </td>
   </tr>
