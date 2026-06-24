@@ -170,7 +170,9 @@ Open `swissjobs.twbx` in Tableau Desktop and use the purple nav buttons to switc
 
 ### Web Dashboard
 
-Open `dashboard/index.html` in any browser — no server required. Pulls from `dashboard_data.json` and renders all five views with Chart.js.
+🌐 **[Live Dashboard → victoriaest1.github.io/swiss-job-intelligence](https://victoriaest1.github.io/swiss-job-intelligence/)**
+
+No installation needed — opens directly in the browser. Built with HTML, CSS, and Chart.js, it mirrors all five Tableau views with interactive charts, KPI cards, and a responsive layout that works on desktop and mobile. Data is pre-exported from the dbt marts layer into a single JSON file, keeping the dashboard fully self-contained with no backend required.
 
 ---
 
@@ -205,21 +207,6 @@ swiss-job-intelligence/
 
 ---
 
-## Getting Started
-
-**Prerequisites:** Python 3.10+, PostgreSQL, Tableau Desktop
-
-```bash
-source venv/bin/activate
-python ingestion/data_generator.py
-cd dbt_project/swiss_jobs_dbt && dbt run
-python scripts/generate_dashboard_data.py
-
-# Or one command:
-./run_update.command
-```
-
----
 
 ## About the Data
 
