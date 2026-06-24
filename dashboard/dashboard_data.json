@@ -1,202 +1,328 @@
 {
+  "generated_at": "2026-06-24T15:44:22.864723",
   "overview": {
     "total_postings": 5000,
-    "avg_salary_chf": 136601,
-    "remote_pct": 40.9,
-    "total_companies": 121,
-    "total_cities": 10
+    "avg_salary_chf": 133083,
+    "remote_pct": 40.1,
+    "top_city": "Zurich",
+    "top_city_pct": 38,
+    "top_city_salary_k": 133,
+    "fastest_city": "St. Gallen",
+    "fastest_city_pct": 75
+  },
+  "monthly_trend": {
+    "labels": [
+      "Jun 2025",
+      "Jul 2025",
+      "Aug 2025",
+      "Sep 2025",
+      "Oct 2025",
+      "Nov 2025",
+      "Dec 2025",
+      "Jan 2026",
+      "Feb 2026",
+      "Mar 2026",
+      "Apr 2026",
+      "May 2026",
+      "Jun 2026"
+    ],
+    "short_labels": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "data": [
+      167,
+      436,
+      399,
+      428,
+      392,
+      455,
+      406,
+      430,
+      394,
+      393,
+      420,
+      406,
+      274
+    ]
   },
   "cities": [
     {
       "city": "Zurich",
       "postings": 1898,
-      "avg_salary": 137461,
-      "remote_pct": 40.8
+      "avg_salary_k": 133,
+      "remote_pct": 40.2,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Basel",
       "postings": 1052,
-      "avg_salary": 135997,
-      "remote_pct": 39.3
+      "avg_salary_k": 133,
+      "remote_pct": 39.4,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Geneva",
       "postings": 835,
-      "avg_salary": 135207,
-      "remote_pct": 41.3
+      "avg_salary_k": 133,
+      "remote_pct": 41.5,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Lausanne",
       "postings": 577,
-      "avg_salary": 136081,
-      "remote_pct": 44.7
+      "avg_salary_k": 133,
+      "remote_pct": 44.7,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Bern",
       "postings": 389,
-      "avg_salary": 137663,
-      "remote_pct": 40.9
+      "avg_salary_k": 132,
+      "remote_pct": 41.0,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Zug",
       "postings": 106,
-      "avg_salary": 134637,
-      "remote_pct": 42.9
+      "avg_salary_k": 134,
+      "remote_pct": 43.6,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Lucerne",
       "postings": 58,
-      "avg_salary": 135643,
-      "remote_pct": 34.7
+      "avg_salary_k": 133,
+      "remote_pct": 33.3,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Winterthur",
       "postings": 45,
-      "avg_salary": 142118,
-      "remote_pct": 30.4
+      "avg_salary_k": 137,
+      "remote_pct": 31.0,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "St. Gallen",
       "postings": 23,
-      "avg_salary": 130147,
-      "remote_pct": 41.2
+      "avg_salary_k": 126,
+      "remote_pct": 41.2,
+      "top_industry": "Finance & Banking"
     },
     {
       "city": "Lugano",
       "postings": 17,
-      "avg_salary": 141327,
-      "remote_pct": 28.6
+      "avg_salary_k": 141,
+      "remote_pct": 28.6,
+      "top_industry": "Technology & SaaS"
     }
   ],
-  "skills": [
+  "city_salary_chart": {
+    "labels": [
+      "Lugano",
+      "Winterthur",
+      "Zug",
+      "Zurich",
+      "Basel",
+      "Geneva",
+      "Lausanne",
+      "Lucerne",
+      "Bern",
+      "St. Gallen"
+    ],
+    "data": [
+      141,
+      137,
+      134,
+      133,
+      133,
+      133,
+      133,
+      133,
+      132,
+      126
+    ]
+  },
+  "city_monthly": {
+    "labels": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "Zurich": [
+      63,
+      177,
+      155,
+      170,
+      133,
+      154,
+      160,
+      157,
+      158,
+      146,
+      169,
+      154,
+      102
+    ],
+    "Basel": [
+      35,
+      89,
+      86,
+      106,
+      76,
+      96,
+      93,
+      80,
+      71,
+      89,
+      83,
+      88,
+      60
+    ]
+  },
+  "top_skills": [
     {
-      "skill": "Python",
+      "name": "Python",
       "count": 4125,
-      "avg_salary": 139131
+      "pct": 100
     },
     {
-      "skill": "SQL",
+      "name": "SQL",
       "count": 3315,
-      "avg_salary": 135356
+      "pct": 80
     },
     {
-      "skill": "Docker",
+      "name": "Docker",
       "count": 2477,
-      "avg_salary": 141912
+      "pct": 60
     },
     {
-      "skill": "Power BI",
+      "name": "Power BI",
       "count": 1717,
-      "avg_salary": 119660
+      "pct": 42
     },
     {
-      "skill": "PostgreSQL",
+      "name": "PostgreSQL",
       "count": 1695,
-      "avg_salary": 134948
+      "pct": 41
     },
     {
-      "skill": "Tableau",
+      "name": "Tableau",
       "count": 1279,
-      "avg_salary": 115161
+      "pct": 31
     },
     {
-      "skill": "dbt",
+      "name": "dbt",
       "count": 1265,
-      "avg_salary": 143051
+      "pct": 31
     },
     {
-      "skill": "DAX",
+      "name": "DAX",
       "count": 880,
-      "avg_salary": 119045
+      "pct": 21
     },
     {
-      "skill": "Excel",
+      "name": "Excel",
       "count": 868,
-      "avg_salary": 108702
+      "pct": 21
     },
     {
-      "skill": "AWS",
+      "name": "AWS",
       "count": 853,
-      "avg_salary": 147664
-    },
-    {
-      "skill": "Kubernetes",
-      "count": 848,
-      "avg_salary": 140391
-    },
-    {
-      "skill": "MLflow",
-      "count": 782,
-      "avg_salary": 158869
-    },
-    {
-      "skill": "PyTorch",
-      "count": 782,
-      "avg_salary": 158869
-    },
-    {
-      "skill": "Snowflake",
-      "count": 438,
-      "avg_salary": 132370
-    },
-    {
-      "skill": "Redis",
-      "count": 431,
-      "avg_salary": 137019
+      "pct": 21
     }
   ],
-  "monthly_trend": [
-    {
-      "month": "Jun",
-      "postings": 184
-    },
-    {
-      "month": "Jul",
-      "postings": 426
-    },
-    {
-      "month": "Aug",
-      "postings": 407
-    },
-    {
-      "month": "Sep",
-      "postings": 431
-    },
-    {
-      "month": "Oct",
-      "postings": 389
-    },
-    {
-      "month": "Nov",
-      "postings": 456
-    },
-    {
-      "month": "Dec",
-      "postings": 406
-    },
-    {
-      "month": "Jan",
-      "postings": 427
-    },
-    {
-      "month": "Feb",
-      "postings": 394
-    },
-    {
-      "month": "Mar",
-      "postings": 390
-    },
-    {
-      "month": "Apr",
-      "postings": 424
-    },
-    {
-      "month": "May",
-      "postings": 416
-    },
-    {
-      "month": "Jun",
-      "postings": 250
-    }
-  ]
+  "skill_premium": [],
+  "salary_by_role": {
+    "roles": [
+      "Sr. Data Sci.",
+      "Sr. Data Eng.",
+      "ML Eng.",
+      "Data Sci.",
+      "Data Eng.",
+      "Backend Eng.",
+      "Software Eng."
+    ],
+    "junior": [
+      112,
+      107,
+      96,
+      94,
+      91,
+      91,
+      91
+    ],
+    "mid_level": [
+      145,
+      139,
+      124,
+      122,
+      118,
+      118,
+      118
+    ],
+    "senior": [
+      165,
+      158,
+      141,
+      139,
+      134,
+      134,
+      134
+    ]
+  },
+  "remote_trend": {
+    "labels": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "data": [
+      38.6,
+      41.8,
+      41.9,
+      42.2,
+      38.2,
+      34.1,
+      45.9,
+      39.5,
+      37.1,
+      45.9,
+      42.3,
+      37.1,
+      37.4
+    ]
+  }
 }
