@@ -38,10 +38,12 @@ This project builds a full data pipeline to explore those trends: synthetic job 
 
 ## Pipeline Architecture
 
-```
-Python + Faker  ──▶  PostgreSQL  ──▶  Apache Airflow  ──▶  dbt  ──▶  Tableau / Web Dashboard
- (data gen)         (raw store)        (orchestration)   (transforms)   (analytics layer)
-```
+
+<div align="center">
+  <img width="900" src="docs/screenshots/airflow_dag.png" alt="Airflow DAG — ingest → dbt run → dbt test → dbt docs → export"/>
+</div>
+
+The Airflow DAG runs five tasks in sequence: raw data ingestion into PostgreSQL, dbt transformation, dbt tests, docs generation, and JSON export for the web dashboard.
 
 | Layer | Technology |
 |---|---|
@@ -53,11 +55,7 @@ Python + Faker  ──▶  PostgreSQL  ──▶  Apache Airflow  ──▶  dbt
 | Web dashboard | HTML, CSS, JavaScript (Chart.js) |
 | EDA | Jupyter Notebook |
 
-<div align="center">
-  <img width="900" src="docs/screenshots/airflow_dag.png" alt="Airflow DAG — ingest → dbt run → dbt test → dbt docs → export"/>
-</div>
 
-The Airflow DAG runs five tasks in sequence: raw data ingestion into PostgreSQL, dbt transformation, dbt tests, docs generation, and JSON export for the web dashboard.
 
 ---
 
@@ -154,9 +152,12 @@ Hiring peaked in **November 2025 (456 postings)** and stayed broadly stable thro
 
 ## Dashboards
 
-### Tableau Workbook (`swissjobs.twbx`)
+### Web Dashboard
 
-Five navigable dashboards with KPI cards on every view and consistent purple design:
+🌐 **[Live Dashboard → victoriaest1.github.io/swiss-job-intelligence](https://victoriaest1.github.io/swiss-job-intelligence/)**
+
+No installation needed — opens directly in the browser. Built with HTML, CSS, and Chart.js, it mirrors all five Tableau views with interactive charts, KPI cards, and a responsive layout that works on desktop and mobile. Data is pre-exported from the dbt marts layer into a single JSON file, keeping the dashboard fully self-contained with no backend required.
+
 
 | Dashboard | What it shows |
 |---|---|
@@ -166,13 +167,7 @@ Five navigable dashboards with KPI cards on every view and consistent purple des
 | **City Intelligence** | Postings by city + remote rate per city |
 | **Market Trends** | Month-over-month hiring trend |
 
-Open `swissjobs.twbx` in Tableau Desktop and use the purple nav buttons to switch between dashboards.
 
-### Web Dashboard
-
-🌐 **[Live Dashboard → victoriaest1.github.io/swiss-job-intelligence](https://victoriaest1.github.io/swiss-job-intelligence/)**
-
-No installation needed — opens directly in the browser. Built with HTML, CSS, and Chart.js, it mirrors all five Tableau views with interactive charts, KPI cards, and a responsive layout that works on desktop and mobile. Data is pre-exported from the dbt marts layer into a single JSON file, keeping the dashboard fully self-contained with no backend required.
 
 ---
 
