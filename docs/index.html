@@ -1207,6 +1207,34 @@ new Chart(document.getElementById('c-sal-traj'),{
   options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,position:'bottom',labels:{color:'#374151',font:{weight:'600',size:11},boxWidth:10,boxHeight:10,padding:16}},tooltip:{...TT,callbacks:{label:c=>`  ${c.dataset.label}: CHF ${c.parsed.y}K`}}},scales:{x:{grid:{display:false},ticks:{color:'#9CA3AF'}},y:{grid:{color:GC},ticks:{color:'#9CA3AF',callback:v=>`CHF ${v}K`},min:75,max:175}}}
 });
 
+// ── City salary ──────────────────────────────────────────────
+new Chart(document.getElementById('c-city-salary'),{
+  type:'bar',
+  data:{
+    labels:['Zurich','Basel','Geneva','Lausanne','Zug','Bern','St. Gallen','Lucerne','Winterthur','Lugano'],
+    datasets:[{
+      label:'Avg Salary (CHF)',
+      data:[152,147,145,131,138,130,122,119,116,112],
+      backgroundColor:['#7C3AED','#059669','#2563EB','#D97706','#DC2626','#0891B2','#9333EA','#16A34A','#CA8A04','#EA580C'],
+      borderRadius:4,
+      borderSkipped:false,
+    }]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{
+      legend:{display:false},
+      tooltip:{...TT,callbacks:{label:c=>`  CHF ${c.parsed.x}K`}}
+    },
+    scales:{
+      x:{grid:{color:GC},ticks:{color:'#9CA3AF',callback:v=>`${v}K`},min:100,max:160},
+      y:{grid:{display:false},ticks:{color:'#374151',font:{weight:'600'}}}
+    }
+  }
+});
+
 // ── Nav ──────────────────────────────────────────────────────
 function showPage(name,el){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
